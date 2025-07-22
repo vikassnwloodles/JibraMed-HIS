@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.patient.lab.test,service:"
+msgid "Service"
+msgstr "服务"
+
+msgctxt "field:gnuhealth.patient.lab.test,service_updated:"
+msgid "Service updated"
+msgstr "服务已更新"
+
+msgctxt "field:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service"
+msgstr "服务"
+
+msgctxt "field:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid "Ungroup"
+msgstr "分开处理"
+
+msgctxt "help:gnuhealth.patient.lab.test,service:"
+msgid "Service document associated to this Lab Request"
+msgstr "与当前检验申请关联的服务文档"
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service document associated to this Lab Request"
+msgstr "与当前检验申请关联的服务文档"
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid ""
+"Check if you DO NOT want to include each individual lab test from this order in the lab test generation step. This is useful when some services are not provided in the same institution.\n"
+"In this case, you need to individually update the service document from each individual test"
+msgstr ""
+"一个实验室检验申请中可能包含多个检验项目，如果用户不希望在实验室检验生成阶段包含所有项目，就勾选此项。\n"
+"这个功能在某些情况下很有用，比如：检验项目不在同一个机构开展，需要按项目单独创建服务文档，单独开发票"
+
+msgctxt "model:ir.message,text:msg_no_service_associated"
+msgid "SM-SERVICES_LAB-0001: Need to associate a service"
+msgstr "SM-SERVICES_LAB-0001: 需要关联到某个服务"
+
+msgctxt "model:ir.message,text:msg_service_has_been_updated"
+msgid ""
+"SM-SERVICES_LAB-0002: \"Service updated\" is \"yes\" indicates that the "
+"service has been updated, please verify it again."
+msgstr "SM-SERVICES_LAB-0002: \"服务已更新\" 选 \"是\" 表明当前服务明细已经更新，请再次检查核实。"
+
+msgctxt "model:ir.model.button,string:srvlab_update_button"
+msgid "Update Services"
+msgstr "更新服务"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "No"
+msgstr "否"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Transfer lab request to services ?"
+msgstr "是否需要按照当前检验申请信息生成相应的服务明细？"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Service document with this lab request ?"
+msgstr "需要按照当前检验申请信息更新对应的服务明细吗？"
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Services"
+msgstr "更新服务"

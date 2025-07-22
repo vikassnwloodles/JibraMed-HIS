@@ -1,0 +1,394 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.action,name:report_patient_evaluation"
+msgid "Patient Evaluation and History"
+msgstr "Avaliação e Histórico do Paciente"
+
+msgctxt "report:patient.evaluation:"
+msgid "(Sys / dias)"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid ","
+msgstr ","
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:patient.evaluation:"
+msgid "/ 15"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "/ 4"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "/ 5"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "/ 6"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Active"
+msgstr "Ativo"
+
+msgctxt "report:patient.evaluation:"
+msgid "Age:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Annotations about the patient conditions & history"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Anthropometry"
+msgstr "Antropometria"
+
+msgctxt "report:patient.evaluation:"
+msgid "Automated report about patient important conditions"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "BMI:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "BP"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Care Plan"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Chief Complaint"
+msgstr "Queixa Principal"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Clinical and Physical examination"
+msgstr "Exame Clínico e Físico"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Clinical finding"
+msgstr "Achado clínico"
+
+msgctxt "report:patient.evaluation:"
+msgid "Code:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Comments"
+msgstr "Observações"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "DU"
+msgstr "UD"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "report:patient.evaluation:"
+msgid "Date:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Diagnosed"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Discharge Reason"
+msgstr "Motivo da Alta"
+
+msgctxt "report:patient.evaluation:"
+msgid "Diseases"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "DoB:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Dose"
+msgstr "Dose"
+
+msgctxt "report:patient.evaluation:"
+msgid "Educational Level:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "End"
+msgstr "Fim"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Ethnicity:"
+msgstr "Etnia:"
+
+msgctxt "report:patient.evaluation:"
+msgid "Evaluation Digital Signature"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Eyes"
+msgstr "Olhos"
+
+msgctxt "report:patient.evaluation:"
+msgid "Family APGAR Functionality"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Family History and Genetic Information"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Family Information"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Family and Socioeconomic assessment history"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Gender:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Heart Rate"
+msgstr "Freqüência Cardíaca"
+
+msgctxt "report:patient.evaluation:"
+msgid "Height:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Hip:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "History of Present Illness"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Housing conditions:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Immunizations"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Indication"
+msgstr "Indicações"
+
+msgctxt "report:patient.evaluation:"
+msgid "Infectious"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Information Source:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Information about the Diagnosis"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Initiated by:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Level of Conciousness / Glasgow Scale"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Lifestyle"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Marital Status:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Medicament"
+msgstr "Medicamento"
+
+msgctxt "report:patient.evaluation:"
+msgid "Medication History"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Motor"
+msgstr "Motor"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Next Dose"
+msgstr "Próxima Dose"
+
+msgctxt "report:patient.evaluation:"
+msgid "OSAT"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Observations"
+msgstr "Observações"
+
+msgctxt "report:patient.evaluation:"
+msgid "Occupation:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Other Hypotheses / DDx"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "PUID:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Patient Evaluation Detail Report"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Patient Genetic Information"
+msgstr "Riscos Genéticos dos Pacientes"
+
+msgctxt "report:patient.evaluation:"
+msgid "Patient:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Personal History"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Presumptive Diagnosis"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Print Date:"
+msgstr "Data de Impressão"
+
+msgctxt "report:patient.evaluation:"
+msgid "Reliability:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Remarks"
+msgstr "Observações"
+
+msgctxt "report:patient.evaluation:"
+msgid "Resp Rate"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "SeS"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Severity"
+msgstr "Gravidade"
+
+msgctxt "report:patient.evaluation:"
+msgid "Sexual practices:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Sexuality:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Signs and Symptoms"
+msgstr "Sinais e Sintomas"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Socioeconomics"
+msgstr "Socioeconômico"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Start"
+msgstr "Início"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Status"
+msgstr "Situação"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Surgeries"
+msgstr "Cirurgias"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgctxt "report:patient.evaluation:"
+msgid "Total Glasgow"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Type"
+msgstr "Tipo"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Vaccine"
+msgstr "Vacina"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Verbal"
+msgstr "Verbal"
+
+#, fuzzy
+msgctxt "report:patient.evaluation:"
+msgid "Vital Signs"
+msgstr "Sinais Vitais"
+
+msgctxt "report:patient.evaluation:"
+msgid "WHR:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Waist:"
+msgstr ""
+
+msgctxt "report:patient.evaluation:"
+msgid "Weight:"
+msgstr ""

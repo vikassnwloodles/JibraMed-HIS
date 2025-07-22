@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.paper_archive,comments:"
+msgid "Comments"
+msgstr "コメント"
+
+msgctxt "field:gnuhealth.paper_archive,current_location:"
+msgid "Current Location"
+msgstr "現在位置"
+
+msgctxt "field:gnuhealth.paper_archive,hc_status:"
+msgid "Status"
+msgstr "状態"
+
+msgctxt "field:gnuhealth.paper_archive,identification_code:"
+msgid "Code"
+msgstr "コード"
+
+msgctxt "field:gnuhealth.paper_archive,legacy:"
+msgid "Legacy Code"
+msgstr "旧コード"
+
+msgctxt "field:gnuhealth.paper_archive,location:"
+msgid "Unit"
+msgstr "ユニット"
+
+msgctxt "field:gnuhealth.paper_archive,patient:"
+msgid "Patient"
+msgstr "患者"
+
+msgctxt "field:gnuhealth.paper_archive,request_date:"
+msgid "Request Date"
+msgstr "依頼日"
+
+msgctxt "field:gnuhealth.paper_archive,requested_by:"
+msgid "Requested by"
+msgstr "依頼者"
+
+msgctxt "field:gnuhealth.paper_archive,return_date:"
+msgid "Returned Date"
+msgstr "報告日"
+
+msgctxt "help:gnuhealth.paper_archive,current_location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr "この病歴文書が存在すべき場所、ユニット"
+
+msgctxt "help:gnuhealth.paper_archive,legacy:"
+msgid ""
+"If existing, please enter the old / legacy code associated to this Clinical "
+"History"
+msgstr "対応するコードがあれば、この病歴に関連する旧コードを入力してください。"
+
+msgctxt "help:gnuhealth.paper_archive,location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr "この病歴文書が存在すべき場所、ユニット"
+
+msgctxt "help:gnuhealth.paper_archive,patient:"
+msgid "Patient associated to this newborn baby"
+msgstr "この新生児と関係のある患者"
+
+msgctxt "help:gnuhealth.paper_archive,requested_by:"
+msgid "Person who last requested the document"
+msgstr "この文書を最後に閲覧したユーザー"
+
+msgctxt "model:gnuhealth.paper_archive,name:"
+msgid "Location of PAPER Patient Clinical History"
+msgstr "紙の患者病歴がある場所"
+
+msgctxt "model:ir.action,name:gnuhealth_action_paper_archive"
+msgid "Medical Archives"
+msgstr "医療文書アーカイブ"
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_archives"
+msgid "Archives"
+msgstr "アーカイブ"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Archived"
+msgstr "アーカイブ中"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Borrowed"
+msgstr "借用中"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Lost"
+msgstr "紛失"
+
+msgctxt "view:gnuhealth.paper_archive:"
+msgid "Patient PAPER Clinical History"
+msgstr "カルテにある患者病歴"

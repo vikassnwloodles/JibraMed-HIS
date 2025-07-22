@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+    <group string="Main" colspan="4" col="8" id="group_diseases_main">
+        <label name="name"/>
+        <field name="name"/>
+        <label name="pathology"/>
+        <field name="pathology"/>
+        <label name="status"/>
+        <field name="status"/>
+        <label name="disease_severity"/>
+        <field name="disease_severity"/>
+        <newline/>
+        <label name="short_comment"/>
+        <field name="short_comment"/>
+        <label name="is_infectious"/>
+        <field name="is_infectious"/>
+        <label name="is_active"/>
+        <field name="is_active"/>
+    </group>
+    <group string="Dates" col="10" colspan="4" id="group_age">
+        <label name="diagnosed_date"/>
+        <field name="diagnosed_date"/>
+        <label name="age"/>
+        <field name="age"/>
+        <label name="age_str"/>
+        <field name="age_str"/>
+        <label name="est_dodx"/>
+        <field name="est_dodx"/>
+        <label name="healed_date"/>
+        <field name="healed_date"/>
+    </group>
+    <group string="Allergies" colspan="2" id="group_patient_allergies">
+        <label name="is_allergy"/>
+        <field name="is_allergy"/>
+        <label name="allergy_type"/>
+        <field name="allergy_type"/>
+    </group>
+    <group string="Pregnancy" colspan="2" id="group_disease_in_pregnancy">
+        <label name="pregnancy_warning"/>
+        <field name="pregnancy_warning"/>
+        <label name="weeks_of_pregnancy"/>
+        <field name="weeks_of_pregnancy"/>
+    </group>
+    <newline/>
+    <group string="Therapy" colspan="4" col="10" id="group_disease_therapy">
+        <label name="treatment_description"/>
+        <field name="treatment_description"/>
+        <label name="date_start_treatment"/>
+        <field name="date_start_treatment"/>
+        <label name="date_stop_treatment"/>
+        <field name="date_stop_treatment"/>
+        <label name="pcs_code"/>
+        <field name="pcs_code"/>
+        <label name="is_on_treatment"/>
+        <field name="is_on_treatment"/>
+    </group>
+    <newline/>
+    <group string="Related Evaluations" yexpand="1" colspan="4" id="group_related_evaluations">
+        <field name="related_evaluations"/>
+    </group>
+    <group string="Extra Info" colspan="4" id="group_disease_extra_info">
+        <field name="extra_info" colspan="4"/>
+    </group>
+    <group id="group_footer" colspan="4">
+        <label name="healthprof"/>
+        <field name="healthprof"/>
+        <label name="institution"/>
+        <field name="institution"/>
+    </group>
+</form>

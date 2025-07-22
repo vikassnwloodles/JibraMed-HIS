@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="view_create_surgery_stock_move">
+            <field name="model">gnuhealth.surgery.stock.move.init</field>
+            <field name="type">form</field>
+            <field name="name">create_surgery_stock_move</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_create_surgery_stock_move">
+            <field name="name">Create Surgery Stock Move</field>
+            <field name="wiz_name">gnuhealth.surgery.stock.move.create</field>
+            <field name="model">gnuhealth.surgery</field>
+        </record>
+        <record model="ir.action.keyword" id="act_create_surgery_keyword">
+            <field name="keyword">form_action</field>
+            <field name="model">gnuhealth.surgery,-1</field>
+            <field name="action" ref="act_create_surgery_stock_move"/>
+        </record>
+    </data>
+</tryton>

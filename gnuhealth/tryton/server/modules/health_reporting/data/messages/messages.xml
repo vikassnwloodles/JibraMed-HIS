@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<!-- This file is part of GNU Health.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_plot_label_immediate_cause_str">
+            <field name="text">Immediate cause</field>
+        </record>
+        <record model="ir.message" id="msg_plot_label_underlying_condition_str">
+            <field name="text">Underlying condition</field>
+        </record>
+    </data>
+</tryton>

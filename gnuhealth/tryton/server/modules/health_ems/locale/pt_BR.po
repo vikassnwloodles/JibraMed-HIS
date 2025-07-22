@@ -1,0 +1,895 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.ambulance,active:"
+msgid "Active"
+msgstr "Ativa"
+
+msgctxt "field:gnuhealth.ambulance,state:"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_brand:"
+msgid "Brand"
+msgstr "Marca"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_function:"
+msgid "Function"
+msgstr "Função"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_identifier:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_model:"
+msgid "Model"
+msgstr "Modelo"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_odometer:"
+msgid "Odometer"
+msgstr "Odômetro"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_remarks:"
+msgid "Remarks"
+msgstr "Observações"
+
+msgctxt "field:gnuhealth.ambulance,vehicle_station:"
+msgid "Station"
+msgstr "Estação"
+
+#, fuzzy
+msgctxt "field:gnuhealth.ambulance,vehicle_type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:gnuhealth.ambulance.support,ambulance:"
+msgid "Ambulance"
+msgstr "Ambulância"
+
+msgctxt "field:gnuhealth.ambulance.support,healthprofs:"
+msgid "Health Professionals"
+msgstr "Profissionais de Saúde"
+
+msgctxt "field:gnuhealth.ambulance.support,sr:"
+msgid "SR"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.ambulance.support,state:"
+msgid "Status"
+msgstr "Situação"
+
+#, fuzzy
+msgctxt "field:gnuhealth.ambulance_hp,healthprof:"
+msgid "Health Prof"
+msgstr "Profissional de Saúde"
+
+msgctxt "field:gnuhealth.ambulance_hp,name:"
+msgid "SR"
+msgstr ""
+
+msgctxt "field:gnuhealth.sequences,support_request_code_sequence:"
+msgid "Support Request sequence"
+msgstr ""
+
+msgctxt ""
+"field:gnuhealth.sequences.support_request_code_sequence,support_request_code_sequence:"
+msgid "Support Request sequence"
+msgstr ""
+
+msgctxt "field:gnuhealth.support_request,address:"
+msgid "Address"
+msgstr "Endereço"
+
+msgctxt "field:gnuhealth.support_request,ambulances:"
+msgid "Ambulances"
+msgstr "Ambulâncias"
+
+msgctxt "field:gnuhealth.support_request,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:gnuhealth.support_request,complaint:"
+msgid "Chief Complaint"
+msgstr "Queixa Principal"
+
+msgctxt "field:gnuhealth.support_request,evaluation:"
+msgid "Evaluation"
+msgstr "Avaliação"
+
+msgctxt "field:gnuhealth.support_request,event_specific:"
+msgid "Incident"
+msgstr "Incidente"
+
+msgctxt "field:gnuhealth.support_request,event_type:"
+msgid "Event type"
+msgstr ""
+
+msgctxt "field:gnuhealth.support_request,healthcenter:"
+msgid "Calling Institution"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request,latitude:"
+msgid "Latidude"
+msgstr "Latitude"
+
+msgctxt "field:gnuhealth.support_request,longitude:"
+msgid "Longitude"
+msgstr "Longitude"
+
+msgctxt "field:gnuhealth.support_request,multiple_casualties:"
+msgid "Multiple Casualties"
+msgstr ""
+
+msgctxt "field:gnuhealth.support_request,operational_sector:"
+msgid "O. Sector"
+msgstr ""
+
+msgctxt "field:gnuhealth.support_request,operator:"
+msgid "Operator"
+msgstr "Operador"
+
+msgctxt "field:gnuhealth.support_request,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.support_request,patient_age:"
+msgid "Age"
+msgstr "Idade"
+
+msgctxt "field:gnuhealth.support_request,patient_sex:"
+msgid "Sex"
+msgstr "Sexo"
+
+msgctxt "field:gnuhealth.support_request,place_occurrance:"
+msgid "Origin"
+msgstr ""
+
+msgctxt "field:gnuhealth.support_request,request_actions:"
+msgid "Activities"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request,request_date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:gnuhealth.support_request,request_extra_info:"
+msgid "Details"
+msgstr "Detalhes"
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request,requestor:"
+msgid "Requestor"
+msgstr "Solicitante"
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:gnuhealth.support_request,urgency:"
+msgid "Urgency"
+msgstr "Urgência"
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request,urladdr:"
+msgid "OSM Map"
+msgstr "Mapa OSM"
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request.log,action:"
+msgid "Activity"
+msgstr "Atividade"
+
+msgctxt "field:gnuhealth.support_request.log,remarks:"
+msgid "Remarks"
+msgstr "Observações"
+
+msgctxt "field:gnuhealth.support_request.log,sr:"
+msgid "SR"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.support_request.log,timestamp:"
+msgid "Time"
+msgstr "Hora"
+
+msgctxt "help:gnuhealth.ambulance,state:"
+msgid "Vehicle status"
+msgstr "Situação do veículo"
+
+msgctxt "help:gnuhealth.ambulance,vehicle_brand:"
+msgid "Ambulance maker"
+msgstr ""
+
+msgctxt "help:gnuhealth.ambulance,vehicle_function:"
+msgid "Vehicle main functionality"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.ambulance,vehicle_identifier:"
+msgid "Ambulance license number or other type of ID"
+msgstr "Número da licença da ambulância ou outro tipo de identificação"
+
+msgctxt "help:gnuhealth.ambulance,vehicle_model:"
+msgid "Ambulance model"
+msgstr "Modelo da ambulância"
+
+#, fuzzy
+msgctxt "help:gnuhealth.ambulance,vehicle_odometer:"
+msgid "Current odometer reading"
+msgstr "Leitura atual do odômetro"
+
+msgctxt "help:gnuhealth.ambulance,vehicle_station:"
+msgid "Station / Base of the vehicle"
+msgstr ""
+
+msgctxt "help:gnuhealth.ambulance,vehicle_type:"
+msgid "Type of vehicle"
+msgstr ""
+
+msgctxt "help:gnuhealth.ambulance.support,sr:"
+msgid "Support Request"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.ambulance.support,state:"
+msgid "Vehicle status"
+msgstr "Situação do veículo"
+
+msgctxt "help:gnuhealth.ambulance_hp,healthprof:"
+msgid "Health Professional for this ambulance and support request"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,address:"
+msgid "Free text address / location"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,ambulances:"
+msgid "Ambulances requested in this Support Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,code:"
+msgid "Request Code"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,evaluation:"
+msgid "Related Patient Evaluation"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.support_request,operational_sector:"
+msgid "Operational Sector"
+msgstr "Setor Operacional"
+
+msgctxt "help:gnuhealth.support_request,operator:"
+msgid "Operator who took the call / support request"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.support_request,place_occurrance:"
+msgid "Place of occurrance"
+msgstr "Local de ocorrência"
+
+msgctxt "help:gnuhealth.support_request,request_actions:"
+msgid "Support request activity log"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,request_date:"
+msgid "Date and time of the call for help"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,requestor:"
+msgid "Related party (person)"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request,urladdr:"
+msgid "Maps the location on Open Street Map"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request.log,action:"
+msgid "Activity log"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request.log,remarks:"
+msgid "Remarks for this item"
+msgstr "Observações para este item"
+
+msgctxt "help:gnuhealth.support_request.log,sr:"
+msgid "Support Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.support_request.log,timestamp:"
+msgid "Date and time of activity"
+msgstr ""
+
+msgctxt "model:gnuhealth.ambulance,name:"
+msgid "Ambulance"
+msgstr "Ambulância"
+
+msgctxt "model:gnuhealth.ambulance.support,name:"
+msgid "Ambulance associated to a Support Request"
+msgstr ""
+
+msgctxt "model:gnuhealth.ambulance_hp,name:"
+msgid "Ambulance Health Professionals"
+msgstr ""
+
+msgctxt "model:gnuhealth.sequences.support_request_code_sequence,name:"
+msgid "Health Service Request Sequence setup"
+msgstr ""
+
+msgctxt "model:gnuhealth.support_request,name:"
+msgid "Support Request Registration"
+msgstr ""
+
+msgctxt "model:gnuhealth.support_request.log,name:"
+msgid "Ambulance associated to a Support Request"
+msgstr ""
+
+msgctxt "model:ir.action,name:gnuhealth_action_ambulance"
+msgid "Ambulances"
+msgstr "Ambulâncias"
+
+msgctxt "model:ir.action,name:gnuhealth_action_ambulance_support"
+msgid "Ambulance in Support Requests"
+msgstr ""
+
+msgctxt "model:ir.action,name:gnuhealth_action_support_request"
+msgid "Support Center"
+msgstr ""
+
+msgctxt "model:ir.sequence,name:seq_gnuhealth_support_request_code"
+msgid "Support Request"
+msgstr ""
+
+msgctxt "model:ir.sequence.type,name:seq_type_gnuhealth_support_request_code"
+msgid "Support Request"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_ambulance"
+msgid "Ambulances"
+msgstr "Ambulâncias"
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_ambulance_sr"
+msgid "Ambulance in Support Requests"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_support_request"
+msgid "Support Center"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "At Hospital"
+msgstr "No Hospital"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "Available / At Station"
+msgstr "Disponível / Na Estação"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "Dispatched"
+msgstr ""
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "En Route"
+msgstr "A caminho"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "On Location"
+msgstr "No Local"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "Out of service"
+msgstr "Fora de serviço"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "Returning"
+msgstr "Retornando"
+
+msgctxt "selection:gnuhealth.ambulance,state:"
+msgid "To Hospital"
+msgstr "Para o Hospital"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.ambulance,vehicle_function:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_function:"
+msgid "Type A - Patient Transport"
+msgstr ""
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_function:"
+msgid "Type B - Emergency"
+msgstr "Tipo B - Emergência"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_function:"
+msgid "Type C - Mobile ICU"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Airplane"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Bicycle"
+msgstr "Bicicleta"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Boat"
+msgstr ""
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Car"
+msgstr "Carro"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Drone"
+msgstr ""
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Helicopter"
+msgstr "Helicóptero"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Motorcycle"
+msgstr "Motocicleta"
+
+msgctxt "selection:gnuhealth.ambulance,vehicle_type:"
+msgid "Van"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "At Hospital"
+msgstr "No Hospital"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "Available / At Station"
+msgstr "Disponível / Na Estação"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "Dispatched"
+msgstr ""
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "En Route"
+msgstr "A caminho"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "On Location"
+msgstr "No Local"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "Out of service"
+msgstr "Fora de serviço"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "Returning"
+msgstr "Retornando"
+
+msgctxt "selection:gnuhealth.ambulance.support,state:"
+msgid "To Hospital"
+msgstr "Para o Hospital"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Acute Coronary Syndrome"
+msgstr "Síndrome Coronariana Aguda"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Acute illness"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Acute pain"
+msgstr "Dor aguda"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Allergic reaction"
+msgstr "Reação alérgica"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Bullying, battering"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Choke"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Chronic illness"
+msgstr "Doença crônica"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Deceased person"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Domestic violence"
+msgstr "Violência doméstica"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Drug intoxication"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Endocrine event (diabetes, adrenal crisis, ..)"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Environmental event (weather, animals, ...)"
+msgstr "Evento ambiental (tempo, animais, ...)"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Explosion"
+msgstr "Explosão"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Eye, Ear and Nose event"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Fall"
+msgstr "Queda"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Fire"
+msgstr "Incêndio"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Food intoxication"
+msgstr "Intoxicação alimentar"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Gas intoxication"
+msgstr "Intoxicação por gás"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Gastrointestinal event"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Near drowning"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Neurological event (stroke, TIA, seizure, ...)"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Other specified"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Pregnancy related event"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Psychiatric event"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Respiratory distress"
+msgstr "Desconforto respiratório"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Robbery, violent assault"
+msgstr "Roubo, agressão violenta"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Sexual assault"
+msgstr "Agressão sexual"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Suicide attempt"
+msgstr "Tentativa de suicídio"
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Transportation accident"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,event_type:"
+msgid "Traumatic Injuries"
+msgstr "Lesões Traumáticas"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Commercial Area"
+msgstr "Área Comercial"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Home"
+msgstr "Casa"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Institution"
+msgstr "Instituição"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Public Building"
+msgstr "Edifício Público"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Public transportation"
+msgstr "Transporte público"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Recreational Area"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "School"
+msgstr "Escola"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Sports event"
+msgstr ""
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Street"
+msgstr "Rua"
+
+msgctxt "selection:gnuhealth.support_request,place_occurrance:"
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,state:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.support_request,state:"
+msgid "Closed"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,state:"
+msgid "Open"
+msgstr "Abrir"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,urgency:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.support_request,urgency:"
+msgid "Emergency"
+msgstr "Emergência"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request,urgency:"
+msgid "Low"
+msgstr "Baixa"
+
+msgctxt "selection:gnuhealth.support_request,urgency:"
+msgid "Urgent"
+msgstr "Urgente"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request.log,action:"
+msgid ""
+msgstr "Português (Brasil)"
+
+msgctxt "selection:gnuhealth.support_request.log,action:"
+msgid "Ambulance"
+msgstr "Ambulância"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.support_request.log,action:"
+msgid "General"
+msgstr "Geral"
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "At Hospital"
+msgstr "No Hospital"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Available"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Confirm arrival to the incident location ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Dispatch ambulance ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Dispatched"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "En Route"
+msgstr "A caminho"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Going to hospital from incident location ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Has the ambulance arrived to hospital ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Is the ambulance returning to the station ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Main"
+msgstr "Principal"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Mark vehicle as available ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "On Location"
+msgstr "No Local"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Out of Service"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Returning"
+msgstr "Retornando"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Set as En Route to the incident ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Set the ambulance as Out of Service ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "Status"
+msgstr "Situação"
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance going to the hospital from the incident location"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance has arrived at the incident location"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance has arrived to base / is available"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance has arrived to hospital"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance has been dispatched"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance is going to the incident"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance is out of service"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "The ambulance is returning to base"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance.support:"
+msgid "To Hospital"
+msgstr "Para o Hospital"
+
+msgctxt "view:gnuhealth.ambulance:"
+msgid "Functionality"
+msgstr ""
+
+msgctxt "view:gnuhealth.ambulance:"
+msgid "Identification"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.ambulance:"
+msgid "Remarks"
+msgstr "Observações"
+
+msgctxt "view:gnuhealth.ambulance:"
+msgid "Station and Status"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.support_request.log:"
+msgid "Date"
+msgstr "Data"
+
+#, fuzzy
+msgctxt "view:gnuhealth.support_request:"
+msgid "Address"
+msgstr "Endereço"
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Close"
+msgstr ""
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Close the request ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.support_request:"
+msgid "Details"
+msgstr "Detalhes"
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Evaluation Specifics"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.support_request:"
+msgid "Location"
+msgstr "Localização"
+
+#, fuzzy
+msgctxt "view:gnuhealth.support_request:"
+msgid "Open"
+msgstr "Abrir"
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Open the request ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Patient Demographics"
+msgstr ""
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Set this support request to closed"
+msgstr ""
+
+msgctxt "view:gnuhealth.support_request:"
+msgid "Set this support request to open"
+msgstr ""

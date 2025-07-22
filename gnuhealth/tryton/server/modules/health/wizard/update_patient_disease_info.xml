@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<tryton>
+    <data>
+        <record model="ir.action.wizard" id="update_patient_disease_info">
+            <field name="name">Update patient disease</field>
+            <field name="wiz_name">gnuhealth.update_patient_disease_info</field>
+        </record>
+
+        <record model="ir.ui.view" id="gnuhealth_patient_diseases_view_form_for_wizard">
+            <field name="model">gnuhealth.patient.disease</field>
+            <field name="type">form</field>
+            <field name="name">gnuhealth_patient_diseases_form_for_wizard</field>
+        </record>
+
+    </data>
+</tryton>

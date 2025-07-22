@@ -1,0 +1,545 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test,active:"
+msgid "Active"
+msgstr "Activo"
+
+msgctxt "field:gnuhealth.imaging.test,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:gnuhealth.imaging.test,name:"
+msgid "Name"
+msgstr "Nombre"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test,product:"
+msgid "Product"
+msgstr "Productos"
+
+msgctxt "field:gnuhealth.imaging.test,test_type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:gnuhealth.imaging.test.request,comment:"
+msgid "Additional Information"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test.request,context:"
+msgid "Context"
+msgstr "Contexto"
+
+msgctxt "field:gnuhealth.imaging.test.request,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:gnuhealth.imaging.test.request,doctor:"
+msgid "Health prof"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.request,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test.request,request:"
+msgid "Order"
+msgstr "Orden"
+
+msgctxt "field:gnuhealth.imaging.test.request,request_line:"
+msgid "Order line"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.request,requested_test:"
+msgid "Study"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.request,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:gnuhealth.imaging.test.request,urgent:"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "field:gnuhealth.imaging.test.result,comment:"
+msgid "Additional Information"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test.result,computed_age:"
+msgid "Age"
+msgstr "Edad"
+
+msgctxt "field:gnuhealth.imaging.test.result,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:gnuhealth.imaging.test.result,doctor:"
+msgid "Evaluated by"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.result,images:"
+msgid "Images"
+msgstr "Imágenes"
+
+msgctxt "field:gnuhealth.imaging.test.result,number:"
+msgid "Number"
+msgstr "Número"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test.result,order:"
+msgid "Order"
+msgstr "Orden"
+
+msgctxt "field:gnuhealth.imaging.test.result,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.imaging.test.result,request:"
+msgid "Request Info"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.result,request_date:"
+msgid "Requested Date"
+msgstr "Fecha de Solicitud"
+
+msgctxt "field:gnuhealth.imaging.test.result,requested_test:"
+msgid "Study"
+msgstr ""
+
+msgctxt "field:gnuhealth.imaging.test.type,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:gnuhealth.imaging.test.type,name:"
+msgid "Name"
+msgstr "Nombre"
+
+#, fuzzy
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,context:"
+msgid "Context"
+msgstr "Contexto"
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,doctor:"
+msgid "Health prof"
+msgstr ""
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,tests:"
+msgid "Tests"
+msgstr "Análisis"
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,urgent:"
+msgid "Urgent"
+msgstr "Urgente"
+
+msgctxt "field:gnuhealth.request-imaging-test,request:"
+msgid "Request"
+msgstr "Solicitud"
+
+msgctxt "field:gnuhealth.request-imaging-test,test:"
+msgid "Study"
+msgstr ""
+
+msgctxt "field:gnuhealth.sequences,imaging_req_seq:"
+msgid "Imaging Request Sequence"
+msgstr ""
+
+msgctxt "field:gnuhealth.sequences,imaging_test_sequence:"
+msgid "Imaging Sequence"
+msgstr ""
+
+msgctxt "field:gnuhealth.sequences.imaging_req_seq,imaging_req_seq:"
+msgid "Imaging Request Sequence"
+msgstr ""
+
+msgctxt ""
+"field:gnuhealth.sequences.imaging_test_sequence,imaging_test_sequence:"
+msgid "Imaging Sequence"
+msgstr ""
+
+msgctxt "help:gnuhealth.imaging.test.request,context:"
+msgid ""
+"Health context for this order. It can be a suspected or existing health "
+"condition, a regular health checkup, ..."
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.imaging.test.result,computed_age:"
+msgid "Computed patient age at the moment of the evaluation"
+msgstr "Edad del paciente en el momento de la evaluación"
+
+msgctxt "help:gnuhealth.imaging.test.result,order:"
+msgid "The order ID containing this particular imaging study"
+msgstr ""
+
+msgctxt "help:gnuhealth.imaging.test.type,code:"
+msgid "Suggest use values of DICOM Modality (0008,0060) tag."
+msgstr ""
+
+msgctxt "help:gnuhealth.imaging.test.type,name:"
+msgid "Suggest use descriptions of DICOM Modality (0008,0060) tag."
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.imaging.test.request.start,context:"
+msgid ""
+"Health context for this order. It can be a suspected or existing health "
+"condition, a regular health checkup, ..."
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.imaging.test.request.start,doctor:"
+msgid "Health professionalwho requests the study."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:gnuhealth.imaging.test,name:"
+msgid "Medical Imaging Study"
+msgstr "Estudio de Imagen"
+
+#, fuzzy
+msgctxt "model:gnuhealth.imaging.test.request,name:"
+msgid "Medical Imaging Study Request"
+msgstr "Solicitud de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:gnuhealth.imaging.test.result,name:"
+msgid "Medical Imaging Study Result"
+msgstr "Resultado de Estudio de Imagen"
+
+#, fuzzy
+msgctxt "model:gnuhealth.imaging.test.type,name:"
+msgid "Medical Imaging Study Type"
+msgstr "Tipo de Estudio de Imagen"
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_cr"
+msgid "Computed Radiography"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_ctscan"
+msgid "Computed Tomography"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_dx"
+msgid "Digital Radiography"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_mri"
+msgid "Magnetic Resonance"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_petscan"
+msgid "Positron emission tomography (PET)"
+msgstr ""
+
+msgctxt ""
+"model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_ultrasound"
+msgid "Ultrasound"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_xa"
+msgid "X-Ray Angiography"
+msgstr ""
+
+msgctxt "model:gnuhealth.imaging.test.type,name:gnuhealth_test_type_xray"
+msgid "X-ray"
+msgstr ""
+
+msgctxt "model:gnuhealth.patient.imaging.test.request.start,name:"
+msgid "Request Patient Imaging Test Start"
+msgstr "Inicio de Pedido de Estudio de Imágenes"
+
+msgctxt "model:gnuhealth.request-imaging-test,name:"
+msgid "Request - Test"
+msgstr "Estudios Solicitados"
+
+msgctxt "model:gnuhealth.sequences.imaging_req_seq,name:"
+msgid "Imaging Request Sequence setup"
+msgstr ""
+
+msgctxt "model:gnuhealth.sequences.imaging_test_sequence,name:"
+msgid "Imaging Test Sequence setup"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_request_view"
+msgid "Medical Imaging Requests"
+msgstr "Pedido de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_request_view2"
+msgid "Medical Imaging Requests"
+msgstr "Solicitud de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_result_view"
+msgid "Medical Imaging Results"
+msgstr "Resultado de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_result_view2"
+msgid "Medical Imaging Results"
+msgstr "Resultado de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_type_view"
+msgid "Medical Imaging Types"
+msgstr "Tipo de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_imaging_test_view"
+msgid "Medical Imaging Studies"
+msgstr "Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:imaging_result_report"
+msgid "Medical Imaging Study"
+msgstr "Estudio de Imagen"
+
+#, fuzzy
+msgctxt "model:ir.action,name:patient_imaging_test_request"
+msgid "Medical Imaging - New order"
+msgstr "Solicitud de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_generate_result"
+msgid "Medical Imaging - Generate Result"
+msgstr "Generar Resultado"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_imaging_test_request_domain_all"
+msgid "All"
+msgstr "Todos"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_imaging_test_request_domain_done"
+msgid "Done"
+msgstr "Hecho"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_imaging_test_request_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_imaging_test_request_domain_requested"
+msgid "Requested"
+msgstr "Solicitado"
+
+msgctxt "model:ir.model.button,string:image_generateresults_button"
+msgid "Generate Results"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:image_request_button"
+msgid "Request"
+msgstr "Solicitud"
+
+msgctxt "model:ir.sequence,name:seq_gnuhealth_imaging_test"
+msgid "Imaging Test"
+msgstr "Estudio de imagen"
+
+msgctxt "model:ir.sequence,name:seq_gnuhealth_imaging_test_request"
+msgid "Imaging Test Request"
+msgstr "Solicitud de Estudio de Imágenes"
+
+msgctxt "model:ir.sequence.type,name:seq_type_gnuhealth_imaging_test"
+msgid "Imaging Test"
+msgstr "Estudio de Imágenes"
+
+msgctxt "model:ir.sequence.type,name:seq_type_gnuhealth_imaging_test_request"
+msgid "Imaging Test Request"
+msgstr "Solicitud de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging"
+msgid "Medical Imaging"
+msgstr "Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging_test_parent"
+msgid "Medical Imaging"
+msgstr "Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging_test_request_view"
+msgid "Medical Imaging Requests"
+msgstr "Pedido de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging_test_result_view"
+msgid "Medical Imaging Results"
+msgstr "Resultado de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging_test_type"
+msgid "Medical Imaging Types"
+msgstr "Tipo de Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_imaging_test_view"
+msgid "Medical Imaging Studies"
+msgstr "Estudio de Imágenes"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_patient_imaging_test_request"
+msgid "Medical Imaging - New order"
+msgstr "Solicitud de Estudio de Imágenes"
+
+msgctxt "model:product.category,name:product_category_imagingservices"
+msgid "Imaging Services"
+msgstr "Servicios de Imágenes"
+
+msgctxt "model:product.template,name:product_template_ctscancharges"
+msgid "CT Scan charges"
+msgstr "Tomografía Computarizada"
+
+msgctxt "model:product.template,name:product_template_mricharges"
+msgid "MRI charges"
+msgstr "Imagen por Resonancia Magnética (MRI)"
+
+msgctxt "model:product.template,name:product_template_petscancharges"
+msgid "PET Scan charges"
+msgstr "Tomografía por Emisión de Positrones"
+
+msgctxt "model:product.template,name:product_template_ultrasoundcharges"
+msgid "Ultrasound charges"
+msgstr "Ultrasonido"
+
+msgctxt "model:product.template,name:product_template_xraycharges"
+msgid "X-ray charges"
+msgstr "Rayos X"
+
+msgctxt "model:res.group,name:group_health_imaging"
+msgid "Health Imaging"
+msgstr ""
+
+msgctxt "model:res.group,name:group_health_imaging_admin"
+msgid "Health Imaging Administration"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Age:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.imaging_report_results:"
+msgid "Comment"
+msgstr "Comentario"
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Context:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.imaging_report_results:"
+msgid "Date:"
+msgstr "Fecha:"
+
+#, fuzzy
+msgctxt "report:patient.imaging_report_results:"
+msgid "DoB:"
+msgstr "FNac:"
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Evaluated by:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Gender:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.imaging_report_results:"
+msgid "Image"
+msgstr "Imagen"
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Imaging Study Report"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Interpretation:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Order:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "PUID:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Patient:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.imaging_report_results:"
+msgid "Print Date:"
+msgstr "Fecha impresión:"
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Requested by:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Resources:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Study ID:"
+msgstr ""
+
+msgctxt "report:patient.imaging_report_results:"
+msgid "Study:"
+msgstr ""
+
+msgctxt "selection:gnuhealth.imaging.test.request,state:"
+msgid "Done"
+msgstr "Hecho"
+
+msgctxt "selection:gnuhealth.imaging.test.request,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:gnuhealth.imaging.test.request,state:"
+msgid "Requested"
+msgstr "Solicitado"
+
+msgctxt "view:gnuhealth.imaging.test.request:"
+msgid "Generate Results"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.imaging.test.request:"
+msgid "Request"
+msgstr "Solicitud"
+
+#, fuzzy
+msgctxt "view:gnuhealth.imaging.test.result:"
+msgid "Images"
+msgstr "Imágenes"
+
+msgctxt "view:gnuhealth.imaging.test.result:"
+msgid "Interpretation / Report"
+msgstr ""
+
+msgctxt "wizard_button:gnuhealth.patient.imaging.test.request,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:gnuhealth.patient.imaging.test.request,start,request:"
+msgid "Request"
+msgstr "Solicitud"

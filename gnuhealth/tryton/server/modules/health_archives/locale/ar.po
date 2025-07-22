@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.paper_archive,comments:"
+msgid "Comments"
+msgstr "تعليقات"
+
+msgctxt "field:gnuhealth.paper_archive,current_location:"
+msgid "Current Location"
+msgstr "المكان الحالي"
+
+msgctxt "field:gnuhealth.paper_archive,hc_status:"
+msgid "Status"
+msgstr "الحالة"
+
+msgctxt "field:gnuhealth.paper_archive,identification_code:"
+msgid "Code"
+msgstr "الرمز"
+
+msgctxt "field:gnuhealth.paper_archive,legacy:"
+msgid "Legacy Code"
+msgstr "الرمز القديم"
+
+msgctxt "field:gnuhealth.paper_archive,location:"
+msgid "Unit"
+msgstr "الوحدة"
+
+msgctxt "field:gnuhealth.paper_archive,patient:"
+msgid "Patient"
+msgstr "المريض"
+
+msgctxt "field:gnuhealth.paper_archive,request_date:"
+msgid "Request Date"
+msgstr "تاريخ الطلب"
+
+msgctxt "field:gnuhealth.paper_archive,requested_by:"
+msgid "Requested by"
+msgstr "مطلوب بواسطة"
+
+msgctxt "field:gnuhealth.paper_archive,return_date:"
+msgid "Returned Date"
+msgstr "تاريخ العودة"
+
+msgctxt "help:gnuhealth.paper_archive,current_location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr "المكان / الوحدة التي يجب أن يحفظ بها مستند السجل السريري."
+
+msgctxt "help:gnuhealth.paper_archive,legacy:"
+msgid ""
+"If existing, please enter the old / legacy code associated to this Clinical "
+"History"
+msgstr "إذا كان موجود، الرجاء إدخال الرمزالقديم المرتبط بهذا السجل السريري"
+
+msgctxt "help:gnuhealth.paper_archive,location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr "المكان / الوحدة التي يجب أن يحفظ بها مستند السجل السريري."
+
+msgctxt "help:gnuhealth.paper_archive,patient:"
+msgid "Patient associated to this newborn baby"
+msgstr "المريض أو الأم المرتبطة بالمولود الجديد"
+
+msgctxt "help:gnuhealth.paper_archive,requested_by:"
+msgid "Person who last requested the document"
+msgstr "آخر شخص طلب المستند"
+
+msgctxt "model:gnuhealth.paper_archive,name:"
+msgid "Location of PAPER Patient Clinical History"
+msgstr "مكان أوراق السجل السريري للمريض"
+
+msgctxt "model:ir.action,name:gnuhealth_action_paper_archive"
+msgid "Medical Archives"
+msgstr "الأرشيف الطبي"
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_archives"
+msgid "Archives"
+msgstr "الأرشيف"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Archived"
+msgstr "مؤرشف"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Borrowed"
+msgstr "مُعار"
+
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Lost"
+msgstr "مفقود"
+
+msgctxt "view:gnuhealth.paper_archive:"
+msgid "Patient PAPER Clinical History"
+msgstr "أوراق التاريخ السريري المريض"

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<tree>
+    <field name="name"/>
+    <field name="surgery"/>
+    <field name="reserve_from" widget="date" string="Date"/>
+    <field name="reserve_from" widget="time"/>
+    <field name="reserve_to" widget="time"/>
+    <field name="patient" expand="1"/>
+    <field name="health_condition" expand="1"/>
+    <field name="healthprof"/>
+    <field name="urgency"/>
+    <field name="state"/>
+    <field name="comments"/>
+</tree>

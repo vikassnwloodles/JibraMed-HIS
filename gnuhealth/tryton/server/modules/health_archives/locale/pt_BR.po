@@ -1,0 +1,103 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.paper_archive,comments:"
+msgid "Comments"
+msgstr "Comentários"
+
+msgctxt "field:gnuhealth.paper_archive,current_location:"
+msgid "Current Location"
+msgstr "Localização Atual"
+
+#, fuzzy
+msgctxt "field:gnuhealth.paper_archive,hc_status:"
+msgid "Status"
+msgstr "Situação"
+
+msgctxt "field:gnuhealth.paper_archive,identification_code:"
+msgid "Code"
+msgstr "Código"
+
+#, fuzzy
+msgctxt "field:gnuhealth.paper_archive,legacy:"
+msgid "Legacy Code"
+msgstr "Código Legado"
+
+msgctxt "field:gnuhealth.paper_archive,location:"
+msgid "Unit"
+msgstr "Unidade"
+
+msgctxt "field:gnuhealth.paper_archive,patient:"
+msgid "Patient"
+msgstr "Paciente"
+
+msgctxt "field:gnuhealth.paper_archive,request_date:"
+msgid "Request Date"
+msgstr "Data da Solicitação"
+
+msgctxt "field:gnuhealth.paper_archive,requested_by:"
+msgid "Requested by"
+msgstr "Solicitado por"
+
+msgctxt "field:gnuhealth.paper_archive,return_date:"
+msgid "Returned Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.paper_archive,current_location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr ""
+"Local / Unidade onde este documento de histórico clínico deve residir."
+
+msgctxt "help:gnuhealth.paper_archive,legacy:"
+msgid ""
+"If existing, please enter the old / legacy code associated to this Clinical "
+"History"
+msgstr ""
+"Se existir, por favor insira o código antigo associado a este Histórico "
+"Clínico"
+
+msgctxt "help:gnuhealth.paper_archive,location:"
+msgid "Location / Unit where this clinical history document should reside."
+msgstr ""
+"Local / Unidade onde este documento de histórico clínico deve residir."
+
+msgctxt "help:gnuhealth.paper_archive,patient:"
+msgid "Patient associated to this newborn baby"
+msgstr "Paciente associado a este bebê recém-nascido"
+
+msgctxt "help:gnuhealth.paper_archive,requested_by:"
+msgid "Person who last requested the document"
+msgstr "Pessoa que solicitou o documento por último"
+
+msgctxt "model:gnuhealth.paper_archive,name:"
+msgid "Location of PAPER Patient Clinical History"
+msgstr ""
+
+msgctxt "model:ir.action,name:gnuhealth_action_paper_archive"
+msgid "Medical Archives"
+msgstr "Arquivos Médicos"
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_archives"
+msgid "Archives"
+msgstr "Arquivos"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Archived"
+msgstr "Arquivado"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Borrowed"
+msgstr "Emprestado"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.paper_archive,hc_status:"
+msgid "Lost"
+msgstr "Perdido"
+
+msgctxt "view:gnuhealth.paper_archive:"
+msgid "Patient PAPER Clinical History"
+msgstr ""

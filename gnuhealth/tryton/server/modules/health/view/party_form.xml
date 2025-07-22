@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<data>
+    <xpath expr="/form/notebook/page[@id=&quot;general&quot;]" position="before">
+        <page string="Health" id="party_gnuhealth">
+            <group col="0" colspan="3" id="party_specs">
+                <label name="create_target"/>
+                <field name="create_target"/>
+                <label name="is_person"/>
+                <field name="is_person"/>
+                <label name="is_patient"/>
+                <field name="is_patient"/>
+                <label name="is_healthprof"/>
+                <field name="is_healthprof"/>
+                <label name="is_institution"/>
+                <field name="is_institution"/>
+                <label name="is_insurance_company"/>
+                <field name="is_insurance_company"/>
+                <label name="is_pharmacy"/>
+                <field name="is_pharmacy"/>
+            </group>
+            <newline/>
+            <group colspan="3" id="person_details">
+                <group col="6" id="person_demographics" string="Demographics">
+                    <label name="gender"/>
+                    <field name="gender"/>
+                    <label name="age"/>
+                    <group id="age_group" colspan="1" col="2">
+                      <field name="est_years"/>
+                      <field name="age"/>
+                    </group>
+                    <label name="dob"/>
+                    <group id="dob_group" colspan="1" col="3">
+                      <field name="dob"/>
+                      <label name="est_dob"/>
+                      <field name="est_dob"/>
+                    </group>
+                    <label name="mother"/>
+                    <field name="mother"/>
+                    <label name="father"/>
+                    <field name="father"/>
+                    <label name="marital_status"/>
+                    <field name="marital_status"/>
+                    <label name="du"/>
+                    <field name="du"/>
+                    <label name="citizenship"/>
+                    <field name="citizenship"/>
+                    <label name="residence"/>
+                    <field name="residence"/>
+                    <label name="ethnic_group"/>
+                    <field name="ethnic_group"/>
+                    <label name="du_address"/>
+                    <field name="du_address" colspan="5" widget="char"/>
+                </group>
+
+                <group yfill="1" id="person_picture">
+                    <field xfill="0" xexpand="1" name="photo" height="190" width="190" widget="image"/>
+                </group>
+            </group>
+            <newline/>
+
+            <field colspan="3" name="alternative_ids"/>
+            <field colspan="3" name="insurance"/>
+                        
+            <newline/>
+            <group id="party_footer" colspan="3" col="14">
+                <label name="internal_user"/>
+                <field name="internal_user"/>
+                <label name="federation_account"/>
+                <field name="federation_account"/>
+                <label name="fed_country"/>
+                <field name="fed_country"/>
+                <label name="activation_date"/>
+                <field name="activation_date"/>
+            </group>
+        </page>
+    </xpath>
+    <xpath expr="/form/group/field[@name=&quot;name&quot;]" position="replace">
+      <group id="name_group" colspan="1" col="0">
+        <field name="name"/>
+        <field name="lastname"/>
+      </group>
+    </xpath>
+    
+    <!-- Use the PUID field in the place of the party code -->
+    <xpath expr="/form/group/label[@name=&quot;code&quot;]" position="replace">
+        <label name="ref"/>
+    </xpath>
+    <xpath expr="/form/group/field[@name=&quot;code&quot;]" position="replace">
+      <group id="ref_group" colspan="1" col="0">
+        <field name="ref"/>
+        <label name="alternative_identification"/>
+        <field name="alternative_identification"/>
+        <label name="unidentified"/>
+        <field name="unidentified"/>
+        <label name="deceased"/>
+        <field name="deceased"/>
+      </group>
+    </xpath>
+
+    <!-- Add the person names on the party identifier section page -->
+
+    <xpath expr="//field[@name=&quot;identifiers&quot;]" position="before">
+        <field name="person_names" colspan="4"/>
+        <newline/>
+        <label name="name_representation"/>
+        <field name="name_representation"/>
+        <newline/>
+        
+    </xpath>
+
+</data>

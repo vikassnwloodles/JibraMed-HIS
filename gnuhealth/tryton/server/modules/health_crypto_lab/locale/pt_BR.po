@@ -1,0 +1,167 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.lab,digest_current:"
+msgid "Current Hash"
+msgstr "Hash atual"
+
+msgctxt "field:gnuhealth.lab,digest_status:"
+msgid "Altered"
+msgstr "Alterado"
+
+msgctxt "field:gnuhealth.lab,digital_signature:"
+msgid "Digital Signature"
+msgstr "Assinatura Digital"
+
+#, fuzzy
+msgctxt "field:gnuhealth.lab,document_digest:"
+msgid "Digest"
+msgstr "Digest"
+
+msgctxt "field:gnuhealth.lab,done_by:"
+msgid "Done by"
+msgstr ""
+
+msgctxt "field:gnuhealth.lab,done_date:"
+msgid "Finished on"
+msgstr ""
+
+msgctxt "field:gnuhealth.lab,historize:"
+msgid "Historize"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.lab,serializer:"
+msgid "Doc String"
+msgstr "Doc String"
+
+#, fuzzy
+msgctxt "field:gnuhealth.lab,serializer_current:"
+msgid "Current Doc"
+msgstr "Doc Atual"
+
+#, fuzzy
+msgctxt "field:gnuhealth.lab,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:gnuhealth.lab,validated_by:"
+msgid "Validated by"
+msgstr ""
+
+msgctxt "field:gnuhealth.lab,validation_date:"
+msgid "Validated on"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.lab,digest_status:"
+msgid ""
+"This field will be set whenever parts of the main original document has been"
+" changed. Please note that the verification is done only on selected fields."
+msgstr ""
+"Este campo será definido sempre que partes do documento original principal "
+"forem alteradas. Note que a verificação é feita apenas nos campos "
+"selecionados."
+
+#, fuzzy
+msgctxt "help:gnuhealth.lab,document_digest:"
+msgid "Original Document Digest"
+msgstr "Digest original do documento"
+
+#, fuzzy
+msgctxt "help:gnuhealth.lab,done_by:"
+msgid "Professional who processes this lab test"
+msgstr "Profissional que processa este teste de laboratório"
+
+msgctxt "help:gnuhealth.lab,historize:"
+msgid ""
+"If this flag is set the a new health condition will be added to the patient "
+"history. Unset it if this lab test is in the context of a pre-existing "
+"condition of the patient. The condition will be created when the lab test is"
+" confirmed and validated"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.lab,validated_by:"
+msgid "Professional who validates this lab test"
+msgstr "Profissional que valida este teste de laboratório"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:labtest_generate_button"
+msgid "Done"
+msgstr "Feito"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:labtest_setdraft_button"
+msgid "Draft"
+msgstr "Rascunho"
+
+msgctxt "model:ir.model.button,string:labtest_sign_button"
+msgid "Validate"
+msgstr ""
+
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Done"
+msgstr "Feito"
+
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Draft"
+msgstr "Rascunho"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Validated"
+msgstr "Validado"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Are the results ready ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Are you sure to sign this lab results ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Digital Signature"
+msgstr "Assinatura Digital"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Document validation"
+msgstr "Validação do documento"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Done"
+msgstr "Feito"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Draft"
+msgstr "Rascunho"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Reverse the document to draft state."
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Set to Draft ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "The lab test is done and results are waiting to be validated"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate and Sign the lab test"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validation"
+msgstr ""

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tryton>
+<data>
+<record model="gnuhealth.surgery.protocol" id="CSECTURG">
+	<field name="code">CSECTURG</field>
+	<field name="name">URGENT C-SECTION</field>
+	<field name="description">OBSTETRIC DYSTOCIA/RISK OF LOSS OF FETAL WELFARE</field>
+	<field name="general_info">BLADDER CATHETERIZATION AND ANTIBIOTIC PROPHYLAXIS. PFANENSTIEL INCISION. ABDOMINAL WALL OPENING BY LAYERS. TRANSVERSE SEGMENTAL HYSTEROTOMY. EXTRACTION OF THE CRYING FETUS IN THE SURGICAL FIELD. UMBILICAL CORD CLAMPING. EXTRACTION OF PLACENTA, REVISION OF THE CAVITY WITH GAUZE. CONTINUOUS HYSTERORRHAPHY VYCRIL 1. CLOSURE OF THE CAVITY BY PLANES. COUNTING SURGICAL MATERIAL.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">u</field>
+	<field name="postoperative_guidelines">-START TOLERANCE 6 HOURS AFTER SURGERY.
+-METAMIZOLE 1 AMPOULE/8H.
+-METOCLOPRAMIDE IF NAUSEA OR VOMITING, 1 AMP/8H.
+- PARACETAMOL 1GR IV/8H, IF RESCUE IS NEEDED.
+-OMEPRAZOLE 20MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVE BLADDER CATHETER AFTER 24 HOURS.
+-MONITOR DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, THE SAME.
+- IF PAIN, PARACETAMOL 650MG, 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR TWO WEEKS
+- IN CASE OF FEVER OR CLINICAL WORSENING, GO TO THE HEALTH CENTER EMERGENCY ROOM.</field>
+	<field name="pathology" ref="health_icd10.O660"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="RESKELOID">
+	<field name="code">RESKELOID</field>
+	<field name="name">KELOID SCAR</field>
+	<field name="description">KELOID SCAR</field>
+	<field name="general_info">UNDER LOCAL ANESTHESIA, TRIAMCIANOLONE IS INFILTRATED AND THE KELOID IS RESECTED LEAVING ITS BORDERS,
+CLOSURE WITH NON-ABSORBABLE MONOFILAMENT. REMOVAL OF ALTERNATE STITCHES FROM THE 10TH DAY.</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS THE WOUND DAILY WITH ANTISEPTIC AND REMOVE STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER</field>
+	<field name="pathology" ref="health_icd10.L905"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="ORCHIOPEXY">
+	<field name="code">ORCHIOPEXY</field>
+	<field name="name">CRYPTORCHIDISM</field>
+	<field name="description">CRYPTORCHIDISM</field>
+	<field name="general_info">INGUINAL APPROACH (SAID, LEFT, BILATERAL). INGUINAL CANAL OPENING. EPIDURAL ORCHIDOPEXY ACCORDING TO SCHOEMAKER'S TECHNIQUE, CANAL CLOSURE BY PLANES. INTRADERMAL SKIN WITH VICRYL RAPID 4)0.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">START TOLERANCE WHEN WIDE AWAKE 
+IF PAIN PARACETAMOL SYRUP 20 MG/KG</field>
+	<field name="discharge_instructions">IF PAIN PARACETAMOL 15 MG/KG EVERY 6 HOURS
+REST FOR 5 DAYS
+KEEP WOUNDS DRY AND CLEAN
+DAILY DRESSING WITH ANTISEPTIC
+NO NEED TO REMOVE STITCHES
+SAME AS GENERAL FORM</field>
+	<field name="pathology" ref="health_icd10.Q530"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="EXODONCY">
+	<field name="code">EXODONCY</field>
+	<field name="name">EXODONCY</field>
+	<field name="description">EXODONCY</field>
+	<field name="general_info">AFTER ANESTHETIC INFILTRATION, EXODONTIA OF THE TEETH IS PERFORMED.
+ALVEOLAR CURETTAGE AND VICRYL SUTURE.</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY
+- COLD DIET
+- AUGMENTINE 1 G IV / 8 H
+- PARACETAMOL 1GR IV / 8H.
+- (PRN) METAMIZOL 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+- OMEPRAZOLE 40MG 1 VIAL/24H
+- VITAL SIGNS CONTROL</field>
+	<field name="discharge_instructions">YOUR USUAL TREATMENT, SUCH AS
+- AUGMENTIN 875 1/ 8H 5 DAYS
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- DIET DOUX
+- IF FEVER OR CLINICAL WORSENING, GO TO EMERGENCY
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.K023"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="EXERESISFIBRO">
+	<field name="code">EXERESISFIBRO</field>
+	<field name="name">BREAST FIBROADENOMA</field>
+	<field name="description">BREAST FIBROADENOMA</field>
+	<field name="general_info">PERIAREOLAR APPROACH. EXERESIS OF FIBROADENOMA . CLOSURE BY PLANES WITH INTRADERMAL SUTURE. REFERRED FOR HISTOPATHOLOGICAL STUDY.</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- MAINTAIN COMPRESSIVE BANDAGE 24 HS 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.N602"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="CIRCUMCISION">
+	<field name="code">CIRCUMCISION</field>
+	<field name="name">PEDIATRIC PHIMOSIS</field>
+	<field name="description">PEDIATRIC PHIMOSIS</field>
+	<field name="general_info">CIRCUMCISION WITH VICRYL RAPID 4/0 SUTURE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">START TOLERANCE WHEN WIDE AWAKE
+IF PAIN PARACETAMOL SYRUP 20 MGRS/KILO</field>
+	<field name="discharge_instructions">IF PAIN PARACETAMOL SYRUP 20 MGRS/KILO/8 HOURS
+WASH PENIS WITH SALINE OR SOAP AND WATER.
+KEEP WOUND DRY AND CLEAN
+ANTISEPTIC EVERY 24 HOURS</field>
+	<field name="pathology" ref="health_icd10.N47"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="GANGLIONECTOMY">
+	<field name="code">GANGLIONECTOMY</field>
+	<field name="name">GANGLION</field>
+	<field name="description">GANGLION</field>
+	<field name="general_info"></field>
+	<field name="anesthesia_type">regional_block</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- YOUR USUAL TREATMENT, THE SAME.
+- IF PAIN, PARACETAMOL 650MG, 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS THE WOUND DAILY WITH ANTISEPTIC AND REMOVE STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- IN CASE OF FEVER OR CLINICAL WORSENING, GO TO THE HEALTH CENTER EMERGENCY ROOM.</field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="GRANULOMACAUTER">
+	<field name="code">GRANULOMACAUTER</field>
+	<field name="name">GRANULOMA</field>
+	<field name="description">GRANULOMA</field>
+	<field name="general_info">CAUTERIZATION OF DISTAL GRANULOMA OF THE 2ND FINGER LEFT HAND.</field>
+	<field name="anesthesia_type">sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification"></field>
+	<field name="postoperative_guidelines">PARACETAMOL 1G/8H IF PAIN IS PRESENT.</field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HEMITHYROIDECTOMYR">
+	<field name="code">HEMITHYROIDECTOMYR</field>
+	<field name="name">RIGHT HEMITHYROIDECTOMY</field>
+	<field name="description">RIGHT THYROID NODULE</field>
+	<field name="general_info">SUBCUTANEOUS AND MUSCULAR PLANE APPROACH. DISSECTION OF RIGHT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF RIGHT SUPERIOR AND INFERIOR PARATHYROID GLANDS, AND RIGHT LARYNGEAL RECURRENT NERVE. RIGHT SUBTOTAL HEMITHYROIDECTOMY, PRESERVING THE REMNANT OF THE RIGHT THYROID LOBE. DISSECTION OF LEFT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF LEFT SUPERIOR AND LEFT INFERIOR PARATHYROID GLANDS, AND LEFT LARYNGEAL RECURRENT NERVE. LEFT HEMITHYROIDECTOMY. REVISION OF HEMOSTASIS. CLOSURE BY PLANES. SKIN WITH INTRADERMAL SUTURE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality">right</field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-STARTING TOLERANCE 4 HOURS AFTER SURGERY
+-PARACETAMOL 1GR IV/8H.
+-(PRN) METAMIZOLE 1 AMPOULE/8H. 
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+-OMEPRAZOLE 40MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVE BLADDER CATHETER
+-MONITOR DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES WITHIN 10 DAYS AT THE HEALTH CENTER
+- REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HEMITHYROIDECTOMYL">
+	<field name="code">HEMITHYROIDECTOMYL</field>
+	<field name="name">LEFT HEMITHYROIDECTOMY</field>
+	<field name="description">LEFT THYROID NODULE</field>
+	<field name="general_info">SUBCUTANEOUS AND MUSCULAR PLANE APPROACH. DISSECTION OF RIGHT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF RIGHT SUPERIOR AND INFERIOR PARATHYROID GLANDS, AND RIGHT LARYNGEAL RECURRENT NERVE. RIGHT SUBTOTAL HEMITHYROIDECTOMY, PRESERVING THE REMNANT OF THE RIGHT THYROID LOBE. DISSECTION OF LEFT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF LEFT SUPERIOR AND LEFT INFERIOR PARATHYROID GLANDS, AND LEFT LARYNGEAL RECURRENT NERVE. LEFT HEMITHYROIDECTOMY. REVISION OF HEMOSTASIS. CLOSURE BY PLANES. SKIN WITH INTRADERMAL SUTURE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality">left</field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-STARTING TOLERANCE 4 HOURS AFTER SURGERY
+-PARACETAMOL 1GR IV/8H.
+-(PRN) METAMIZOLE 1 AMPOULE/8H. 
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+-OMEPRAZOLE 40MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVE BLADDER CATHETER
+-MONITOR DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES WITHIN 10 DAYS AT THE HEALTH CENTER
+- REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HEMORRHOIDECTOMY">
+	<field name="code">HEMORRHOIDECTOMY</field>
+	<field name="name">HEMORROIDS</field>
+	<field name="description">HEMORROIDS</field>
+	<field name="general_info">IDENTIFICATION OF HEMORRHOIDAL BUNDLES IS PERFORMED AT THE ... HEMORRHOIDECTOMY IS PERFORMED ACCORDING TO MILLIGAN-MORGAN TECHNIQUE. REVIEW OF HEMOSTASIS.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">lithotomy</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- DUPHALAC ONE SACHET EVERY 12 HOURS. 
+- CLEAN AND DRY THE WOUND.
+ - WASH DAILY WITH SOAP AND WATER.
+- RELATIVE REST FOR ONE WEEK
+- RETURN TO THE CLINIC AFTER 1 WEEK.
+- IF THE WOUND BECOMES HOT OR IF PUS COMES OUT OF THE WOUND, RETURN IMMEDIATELY TO THE CLINIC.</field>
+	<field name="pathology" ref="health_icd10.I84"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="INGHERNIOPLASTYADULT">
+	<field name="code">INGHERNIOPLASTYADULT</field>
+	<field name="name">HERNIA INGUINAL </field>
+	<field name="description">HERNIA INGUINAL ADULTO</field>
+	<field name="general_info">PARINGUINAL INCISION. OPENING OF THE OBLIQUE APONEUROSIS. DISSECTION AND RELEASE OF HERNIAL SAC. HERNIOPLASTY WITH POLYPROPYLENE MESH. CLOSURE BY PLANES.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES/SCARS WITHIN 10 DAYS AT THE HEALTH CENTER.
+-DO NOT WORK FOR 1 MONTH.
+- IF THE WOUND BECOMES HOT OR IF PUS COMES OUT OF THE WOUND, RETURN IMMEDIATELY TO THE CLINIC.
+- RETURN TO THE CLINIC AFTER 1 WEEK.</field>
+	<field name="pathology" ref="health_icd10.K40"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="INGHERNIOPLASTYPEDIATRIC">
+	<field name="code">INGHERNIOPLASTYPEDIATRIC</field>
+	<field name="name">PEDIATRIC INGUINAL HERNIA</field>
+	<field name="description">PEDIATRIC INGUINAL HERNIA</field>
+	<field name="general_info">INGUINAL APPROACH (RIGHT, LEFT, BILATERAL). INGUINAL CANAL OPENING.HERNIORRHAPHY CLOSING SAC WITH VICRYL 2/0. CLOSURE BY FERGUSON PLANES. INTRADERMAL SKIN VICRYL RAPID 4/0.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">INITIATE TOLERANCE WHEN WIDE AWAKE
+PARACETAMOL SYRUP 20 MGRS/KILO</field>
+	<field name="discharge_instructions">IF PAIN, PARACETAMOL SYRUP 15 MG/6 HOURS
+WOUND DRESSING WITH ANTISEPTIC EVERY 24 HOURS
+NO NEED TO REMOVE SUTURES</field>
+	<field name="pathology" ref="health_icd10.K40"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="UMBHERNIOPLASTYPEDIATRIC">
+	<field name="code">UMBHERNIOPLASTYPEDIATRIC</field>
+	<field name="name">PEDIATRIC UMBILICAL HERNIA</field>
+	<field name="description">PEDIATRIC UMBILICAL HERNIA</field>
+	<field name="general_info">INFRAUMBILICAL INCISION. DISSECTION OF THE HERNIA SAC. CLOSURE OF THE DEFECT WITH VICRYL 2/0
+CLOSURE BY SKIN PLANES LOOSE STITCHES VICRYL RAPID 4/0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">START TOLERANCE WHEN WIDE AWAKE
+IF PAIN PARACETAMOL DOSE 20 MGRS/KILO</field>
+	<field name="discharge_instructions">IF PAIN, PARACETAMOL 15 MGRS/6 HOURS
+KEEP WOUND DRY AND CLEAN.
+REMOVE DRESSING IN 72 HOURS.
+CURE EVERY 24 HOURS WITH AN ANTISEPTIC
+NO NEED TO REMOVE SUTURE</field>
+	<field name="pathology" ref="health_icd10.K42"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HYDROCELECTOMYPEDIATRIC">
+	<field name="code">HYDROCELECTOMYPEDIATRIC</field>
+	<field name="name">PEDIATRIC HYDROCELE</field>
+	<field name="description">PEDIATRIC HYDROCELE</field>
+	<field name="general_info">INGUINAL APPROACH (LEFT, LEFT, BILATERAL). INGUINAL CANAL OPENING. VAGINAL PERITONEAL DUCT CLOSURE WITH VICRYL 2/0. RESIDUAL HYDROCELE EMPTYING. CLOSURE BY PLANES. INTRADERMAL SKIN VICRYL RAPID 4/0.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">START TOLERANCE WHEN WIDE AWAKE 
+IF PAIN PARACETAMOL SYRUP 20 MGRS/KILO</field>
+	<field name="discharge_instructions">IF PAIN, PARACETAMOL SYRUP 15 MGRS/KILO/6 HOURS
+KEEP WOUND DRY AND CLEAN
+CURE WITH ANTISEPTIC EVERY 24 HOURS
+NO SUTURE REMOVAL NECESSARY</field>
+	<field name="pathology" ref="health_icd10.N433"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HYDROCELECTOMYADULT">
+	<field name="code">HYDROCELECTOMYADULT</field>
+	<field name="name">ADULT HYDROCELE</field>
+	<field name="description">ADULT HYDROCELE</field>
+	<field name="general_info">SCROTAL INCISION AND IDENTIFICATION OF THE HYDROCELE SAC.
+THE SAC IS OPENED AND THE VAGINAL IS PARTIALLY EVULSED BY PLICATION OF THE VAGINA (LORD TECHNIQUE).
+THE VAGINAL IS DISSECTED AND EVECTED (JABOULAY'S TECHNIQUE).
+THE VAGINAL IS DISSECTED AND RESECTED (ANDREWS TECHNIQUE).</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- MAINTAIN COMPRESSIVE BANDAGE 
+- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- DIURESIS CONTROL 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS 
+- RELATIVE REST FOR A WEEK
+- KEEP TESTICLE ELEVATED WITH A SHELL
+- IF FEVER OR CLINICAL WORSENING, GO TO EMERGENCY
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.N43"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HYSTERECTOMYABD">
+	<field name="code">HYSTERECTOMYABD</field>
+	<field name="name">ABDOMINAL HYSTERECTOMY</field>
+	<field name="description">ABDOMINAL HYSTERECTOMY</field>
+	<field name="general_info">ANTIBIOTIC PROPHYLAXIS. BLADDER CATHETERIZATION. PFANENSTIEL INCISION OR INFRAUMBILICAL MEDIAN LAPAROTOMY. ABDOMINAL WALL OPENING BY PLANES, PLS OF ROUND LIGAMENTS, PLS OF UTERO-OVARIAN LIGAMENTS, DESCENT OF BLADDER PLICA, PLS OF UTERINE VESSELS, PARAMETRIUM. COLPOTOMY. SURGICAL PIECE EXTRACTION. COLPORRHAPHY. CAVITY CLOSURE BY PLANES.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 6 HOURS AFTER SURGERY 
+- METAMIZOL 1 AMPOLL/8H, 24 HOURS. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING. 
+- PARACETAMOL 1GR IV/8H IF NEEDED. 
+- OMEPRAZOLE 20MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, THE SAME.
+- IF PAIN, PARACETAMOL 650MG, 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR TWO WEEKS
+- IN CASE OF FEVER OR CLINICAL WORSENING, GO TO THE HEALTH CENTER EMERGENCY ROOM.</field>
+	<field name="pathology" ref="health_icd10.D25"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="HYSTERECTOMYVAG">
+	<field name="code">HYSTERECTOMYVAG</field>
+	<field name="name">VAGINAL HYSTERECTOMY AND PLASTY</field>
+	<field name="description">VAGINAL HYSTERECTOMY AND PLASTY</field>
+	<field name="general_info">ANTIBIOTIC PROPHYLAXIS. BLADDER CATHETERIZATION. VAGINAL INFILTRATION. ANTERIOR PLASTY PREPARATION. VESICOUTERINE SPACE DISSECTION.  PLS UTEROSACRAL LIGAMENTS, PLS PARACOLPIUM, PLS UTERINE VESSELS, PLS UTERO-OVARIAN LIGAMENTS. COLPOPERINEOPLASTIES. COLPORRHAPHY. MCCALL COLPOSUSPENSION.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">other</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">lithotomy</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 6 HOURS AFTER SURGERY 
+- METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING. 
+- PARACETAMOL 1GR IV/8H IF NEEDED. 
+- OMEPRAZOLE 20MG 1 VIAL/24H. 
+- INITIATE AMBULATION 
+- WITHDRAW VESICAL NURSE AT 24 HOURS 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACETAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY VAGINAL WASH WITH SOAP 
+- REST FOR ONE WEEK
+- IN THE EVENT OF FEVER OR CLINICAL WORSENING, GO TO A HEALTH-CARE CENTER EMERGENCY ROOM</field>
+	<field name="pathology" ref="health_icd10.N813"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SKINGRAFT">
+	<field name="code">SKINGRAFT</field>
+	<field name="name">SKIN GRAFT</field>
+	<field name="description">SKIN GRAFT</field>
+	<field name="general_info">PARTIAL FREE SKIN GRAFT IS TAKEN AND APPLIED TO THE DEFECT.
+FIXATION WITH AGRAFES AND KNOTTED DRESSING.</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY, REMOVE THE DRESSING AFTER 5 DAYS AT THE HEALTH CENTER.</field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="LIPOMECTOMY">
+	<field name="code">LIPOMECTOMY</field>
+	<field name="name">LIPOMA</field>
+	<field name="description">LIPOMA</field>
+	<field name="general_info">A SPINDLE INCISION WAS MADE, WITH DISSECTION AND REMOVAL OF THE TUMOR, WHICH WAS SENT FOR HISTOPATHOLOGICAL STUDY. CLOSURE BY PLANES.</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.D17"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="MYOMECTOMYMULTIPLE">
+	<field name="code">MYOMECTOMYMULTIPLE</field>
+	<field name="name">MULTIPLE MYOMECTOMY</field>
+	<field name="description">MULTIPLE MYOMECTOMY</field>
+	<field name="general_info">PFANNNSTIEL INCISION, WALL OPENING, MYOMA INFILTRATION WITH BUPIVACAINE AND 0.5% ADRENALINE. OPENING OF THE MYOMA CAPSULE UNTIL ENTRY INTO THE CLEAVAGE PLAN. DISSECTION OF MYOMA BY COUNTERTRACTION TRACTION TECHNIQUE. EXTRACTION OF THE MYOMA AND SUTURE OF THE MYOMA BED WITH LOOSE STITCHES OF VYCRIL 2/0. THE DYNAMIC IS REPEATED WITH EACH MYOMA. SUTURE OF THE SEROSA WITH CONTINUOUS SUTURE PDS 2/0. CLOSURE OF THE SKIN WOUND CAVITY WITH STAPLES.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 6 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H. 
+- METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACETAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR ONE WEEK
+- IN CASE OF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY DEPARTMENT.</field>
+	<field name="pathology" ref="health_icd10.D25"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="MASTECTOMY">
+	<field name="code">MASTECTOMY</field>
+	<field name="name">MASTECTOMY</field>
+	<field name="description">MASTECTOMY</field>
+	<field name="general_info">- MASTECTOMY
+STEWARD HORIZONTAL INCISION. DISSECTION AND SUPERIOR SKIN FLAP TO THE INFERIOR BORDER OF THE CLAVICLE. DISSECTION AND INFERIOR SKIN FLAP TO SURPASS THE SUBMAMMARY SULCUS AND REACH THE INSERTION OF THE OBLIQUES AND ANTERIOR RECTUS ABDOMINIS. DISSECTION OF THE MAMMARY GLAND WITHOUT INCLUDING PREPECTORAL FASCIA.
+
+- CONSERVATIVE SURGERY
+INCISION IS MADE _________ DISSECTION OF UPPER AND LOWER SKIN FLAP AND BLOCK EXCISION OF TUMOR UP TO THE LEVEL OF PREPECTORAL FASCIA. BREAST ONCOPLASTY, CLOSURE OF SUBCUTANEOUS TISSUE AND SKIN WITH INTRADERMAL.
+
+- LYMPHADENECTOMY
+AXILLARY LYMPHADENECTOMY IS PERFORMED EN BLOC IDENTIFYING FIRST THE OUTER EDGE OF THE PECTORALIS MAJOR AND OPENING OF THE AXILLARY FASCIA, THEN THE ANTERIOR EDGE OF THE LATISSIMUS DORSI IS LOCATED AND AFTER THAT THE ANTERIOR AND INFERIOR FACE OF THE AXILLARY VEIN IS IDENTIFIED AND RELEASED. IDENTIFICATION OF THE LONG THORACIC NERVE OR BELL'S NERVE AND THE THORACO-DORSAL VASCULO-NERVE BUNDLE THAT IS RESPECTED.
+AXILLARY DRAINAGE
+
+
+- MODIFIED RADICAL MASTECTOMY MADDEN TYPE
+1ST STAGE: STEWARD HORIZONTAL INCISION. DISSECTION AND SUPERIOR SKIN FLAP TO THE INFERIOR BORDER OF THE CLAVICLE. DISSECTION AND INFERIOR SKIN FLAP TO SURPASS THE SUBMAMMARY SULCUS AND REACH THE INSERTION OF THE OBLIQUES AND ANTERIOR RECTUS ABDOMINIS. DISSECTION OF THE MAMMARY GLAND AND PECTORALIS FASCIA PRESERVING BOTH PECTORALIS MUSCLES.
+2ND STAGE: AXILLARY LYMPHADENECTOMY IS PERFORMED EN BLOC AND IDENTIFIED.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-STARTING TOLERANCE 4 HOURS AFTER SURGERY
+-PARACETAMOL 1GR IV/8H.
+-(PRN) METAMIZOLE 1 AMPOULE/8H.
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+-OMEPRAZOLE 40MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVE BLADDER CATHETER
+- MAINTAIN COMPRESSIVE DRESSING
+-MONITOR DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="PALATOPLASTYADULT">
+	<field name="code">PALATOPLASTYADULT</field>
+	<field name="name">ADULT PALATOPLASTY</field>
+	<field name="description">ADULT PALATOPLASTY</field>
+	<field name="general_info">PALATAL FISSURE CLOSURE IN THREE PLANES, BY CARVING PALATAL FLAPS AND REPOSITIONING THE MUSCULATURE BY INTRA-VELAR VELOPLASTY TYPE III
+1 BARDACH'S TECHNIQUE 2 INTRAVELAR VELOPLASTY TYPE III</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">other</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-START TOLERANCE WITHIN 4 HOURS OF SURGERY
+- LIQUID/SHREDDED DIET
+- URBASON 40-60 MG7 24H
+-PARACETAMOL 1GR IV/8H
+-(PRN) METAMIZOLE 1 AMPOULE/8H. 
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+- AUGMENTINE 1GR IV / 8 H
+-OMEPRAZOLE 40MG 1 VIAL / 24H.</field>
+	<field name="discharge_instructions">- KEEP WOUND CLEAN AND DRY
+- SOFT DIET 7 DAYS
+- PARACETAMOL 1 G/8H 5 DAYS
+- AUGMENTIN 875/8H 5 DAYS
+- METAMIZOLE IF NECESSARY 1 COMPR / 8H
+- IN CASE OF FEVER OR WORSENING CLINICAL CONDITION, GO TO EMERGENCY.
+- SEE YOU NEXT ___ AT ___ AT ____</field>
+	<field name="pathology" ref="health_icd10.Q35"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="PALATOPLASTYPEDIATRIC">
+	<field name="code">PALATOPLASTYPEDIATRIC</field>
+	<field name="name">PEDIATRIC PALATOPLASTY</field>
+	<field name="description">PEDIATRIC PALATOPLASTY</field>
+	<field name="general_info">PALATAL FISSURE CLOSURE IN THREE PLANES, BY CARVING PALATAL FLAPS AND REPOSITIONING THE MUSCULATURE BY INTRA-VELAR VELOPLASTY TYPE III
+1 BARDACH'S TECHNIQUE 2 INTRAVELAR VELOPLASTY TYPE III</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">other</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY
+- LIQUID/SHREDDED DIET
+- IBUPROFEN 30 MG7K7DAY
+- AUGMENTIN 30-50 MG/K/DAY
+- URBASON</field>
+	<field name="discharge_instructions">- KEEP WOUND CLEAN AND DRY
+- SOFT DIET 7 DAYS
+- AUGMENTIN 30-50 MG/K/DAY 5 DAYS
+- IF NECESSARY IBUPROFEN 30 MG/K/DAY OR PARACETAMOL 15 MG/K/6 HOURS
+- IF FEVER OR CLINICAL WORSENING, GO TO EMERGENCY
+- CHECK-UP NEXT ___ AT ___ AT ____</field>
+	<field name="pathology" ref="health_icd10.Q35"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="PAROTIDECTOMY">
+	<field name="code">PAROTIDECTOMY</field>
+	<field name="name">PAROTIDECTOMY</field>
+	<field name="description">PAROTIDECTOMY</field>
+	<field name="general_info">MODIFIED BLAIR INCISION, DISSECTION OF THE FACIAL NERVE AND EXCISION OF THE TUMOR. CLOSURE BY PLANES, LEAVING ASPIRATED DRAINAGE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY
+- PARACETAMOL 1GR IV/8H.
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+- OMEPRAZOLE 40MG 1 VIAL/24H
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.C07"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="CHEILOPLASTYPEDIATRIC">
+	<field name="code">CHEILOPLASTYPEDIATRIC</field>
+	<field name="name">PEDIATRIC CHEILOPLASTY</field>
+	<field name="description">PEDIATRIC CHEILOPLASTY</field>
+	<field name="general_info">LIP FISSURE CLOSURE WITH FUNCTIONAL REPOSITIONING OF THE MUSCULATURE.
+UNILATERAL FISSURE CLOSURE ACCORDING TO MILLARD TECHNIQUE 2. BILATERAL FISSURE CLOSURE ACCORDING TO MULLIKEN TECHNIQUE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- LIQUID/SHREDDED DIET 
+- AUGMENTIN 30-50 MG/K/DAY 
+- IBUPROFEN 30 MG/K/DAY 
+- URBASON</field>
+	<field name="discharge_instructions">- KEEPING THE INJURY CLEAN AND DRY
+- LIQUID/SHREDDED DIET NEXT 7 DAYS
+- AUGMENTINE 30-50 MG/K/DAY, 5 DAYS
+- IF NECESSARY, IBUPROFEN 30 MG/K/DAY OR PARACETAMOL 15MG/K/6HRS
+- CHECK-UP NEXT ___ AT ___ AT ____</field>
+	<field name="pathology" ref="health_icd10.Q36"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="CHEILOPLASTYADULT">
+	<field name="code">CHEILOPLASTYADULT</field>
+	<field name="name">ADULT CHEILOPLASTY</field>
+	<field name="description">PEDIATRIC CHEILOPLASTY</field>
+	<field name="general_info">LIP FISSURE CLOSURE WITH FUNCTIONAL REPOSITIONING OF THE MUSCULATURE.
+UNILATERAL FISSURE CLOSURE ACCORDING TO MILLARD TECHNIQUE 2. BILATERAL FISSURE CLOSURE ACCORDING TO MULLIKEN TECHNIQUE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- LIQUID/SHREDDED DIET 
+- URBASON 40-60 MG/24H 
+- PARACETAMOL 1 G IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H.
+- OMEPRAZOLE 40MG /24H 
+- AUGMENTINE 1 G IV/8H</field>
+	<field name="discharge_instructions">- KEEPING THE WOUND CLEAN AND DRY
+- LIQUID / SHREDDED DIET FOR 7 DAYS
+- PARACETAMOL 650MG 1COMP/8H
+- (PRN) METAMIZOLE 1 COMP /8H. 
+- AUGMENTINE 875/125 EVERY 8H, 5 DAYS 
+- CHECK-UP NEXT ___ AT ___ AT ____</field>
+	<field name="pathology" ref="health_icd10.Q36"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="CYSTECTOMYABD">
+	<field name="code">CYSTECTOMYABD</field>
+	<field name="name">ABDOMINAL CYSTECTOMY</field>
+	<field name="description">ABDOMINAL CYSTECTOMY</field>
+	<field name="general_info">ANTIBIOTIC PROPHYLAXIS. BLADDER CATHETERIZATION. PFANNENSTIEL INCISION / INFRAUMBILICAL MEDIAN LAPAROTOMY. ABDOMINAL WALL OPENING BY LAYERS. EXCISION OF OVARIAN CYST OR TUMOR AFTER CAPSULE DISSECTION. HEMOSTASIS STITCHES. CAVITY CLOSURE BY LAYERS.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 6 HOURS AFTER SURGERY 
+- METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING. 
+- PARACETAMOL 1GR IV/8H IF RESCUE IS NEEDED. 
+- OMEPRAZOLE 40MG 1 VIAL/24H. 
+- INITIATE AMBULATION 
+- REMOVE BLADDER CATHETER 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACETAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DAILY DRESSING OF THE WOUND WITH ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER
+- RELATIVE REST FOR TWO WEEKS
+- IN THE EVENT OF FEVER OR CLINICAL WORSENING, GO TO THE HEALTH CENTER EMERGENCY ROOM</field>
+	<field name="pathology" ref="health_icd10.Q501"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="CYSTECTOMYMAX">
+	<field name="code">CYSTECTOMYMAX</field>
+	<field name="name">MAXILLARY OR MANDIBULAR CYSTECTOMY</field>
+	<field name="description">MAXILLARY OR MANDIBULAR CYSTECTOMY</field>
+	<field name="general_info">INFILTRATION WITH VASOCONSTRICTOR ANESTHESIA, INCISION IN ORAL MUCOSA OF .............A .............CYSTECTOMY AND EXODONTIA OF THE AFFECTED TEETH. HEMOSTASIS AND SUTURE WITH VICRYL.</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY
+- LIQUID DIET
+- PARACETAMOL 1GR IV/8H
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+- OMEPRAZOLE 40MG 1 VIAL/24H
+- AUGMENTIN 875 /8H</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- DIET BLANC
+- AUGMENTIN 875/ 8H 5 DAYS
+- IN CASE OF FEVER OR WORSENING CLINICAL CONDITION, GO TO EMERGENCY.
+- CHECK-UP ON ___ AT ____</field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="THYROIDECTOMYSUB">
+	<field name="code">THYROIDECTOMYSUB</field>
+	<field name="name">SUBTOTAL THYROIDECTOMY (DUNHILL)</field>
+	<field name="description">SUBTOTAL THYROIDECTOMY (DUNHILL)</field>
+	<field name="general_info">SUBCUTANEOUS AND MUSCULAR PLANE APPROACH. DISSECTION OF HEMITHYROID ---------, PREVIOUS IDENTIFICATION AND PRESERVATION OF SUPERIOR PARATHYROID GLANDS ------- AND INFERIOR PARATHYROID GLANDS --------, AND LARYNGEAL RECURRENT NERVE ----------. HEMITIROIDECTOMÍA ------------. DISSECTION OF LEFT HEMITHYROID AFTER IDENTIFICATION AND PRESERVATION OF LEFT SUPERIOR AND LEFT INFERIOR PARATHYROID GLANDS AND LEFT LARYNGEAL RECURRENT NERVE. LEFT SUBTOTAL HEMITHYROIDECTOMY, PRESERVING THE REMNANT OF THE LEFT THYROID LOBE. REVISION OF HEMOSTASIS. CLOSURE BY PLANES. SKIN WITH INTRADERMAL SUTURE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">START TOLERANCE 4 HOURS AFTER SURGERY
+-PARACETAMOL 1GR IV/8H.
+-(PRN) METAMIZOLE 1 AMPOULE/8H. 
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+-OMEPRAZOLE 40MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVE BLADDER CATHETER
+-MONITOR DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES WITHIN 10 DAYS AT THE HEALTH CENTER
+- REST FOR ONE WEEK
+- IF FEVER OR CLINICAL WORSENING, GO TO THE EMERGENCY ROOM
+- CHECK-UP NEXT ___ AT ___ AT ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="THYROIDECTOMYTOTAL">
+	<field name="code">THYROIDECTOMYTOTAL</field>
+	<field name="name">TOTAL THYROIDECTOMY</field>
+	<field name="description">TOTAL THYROIDECTOMY</field>
+	<field name="general_info">SUBCUTANEOUS AND MUSCULAR PLANE APPROACH. DISSECTION OF RIGHT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF RIGHT SUPERIOR AND INFERIOR RIGHT PARATHYROID GLANDS, AND RIGHT LARYNGEAL RECURRENT NERVE. RIGHT HEMITHYROIDECTOMY. DISSECTION OF LEFT HEMITHYROID, PREVIOUS IDENTIFICATION AND PRESERVATION OF LEFT SUPERIOR AND INFERIOR PARATHYROID GLANDS, AND LEFT LARYNGEAL RECURRENT NERVE. LEFT HEMITHYROIDECTOMY. REVISION OF HEMOSTASIS. CLOSURE BY PLANES. SKIN WITH INTRADERMAL SUTURE.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-STARTING TOLERANCE 4 HOURS AFTER SURGERY
+-PARACETAMOL 1GR IV/8H.
+-(PRN) METAMIZOLE 1 AMPOULE/8H. 
+-(PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING
+-OMEPRAZOLE 40MG 1 VIAL/24H.
+-START AMBULATION
+-REMOVAL OF BLADDER CATHETERIZATION
+-CONTROL OF DRAINAGE AND VITAL CONSTANTS (IF NEEDED) -CONTROL OF DRAINAGE AND VITAL CONSTANTS (IF NEEDED)
+-CONTROL CALCIUM EXTRACTION TOMORROW MORNING</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- EUTIROX 100, 1 TABLET EVERY 24 HOURS, EVERY DAY, HALF AN HOUR BEFORE BREAKFAST.
+- KEEP WOUNDS CLEAN AND DRY
+- DRESS WOUNDS DAILY WITH ANTISEPTICS AND REMOVE STITCHES WITHIN 10 DAYS AT THE HEALTH CENTER
+- REST FOR ONE WEEK
+- IN CASE OF FEVER OR CLINICAL WORSENING, GO TO EMERGENCY.
+- CHECK-UP NEXT ___ AT ___ AT ____.
+</field>
+	<field name="pathology" ref="health_icd10.E011"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SKINTUMOREXERESIS">
+	<field name="code">SKINTUMOREXERESIS</field>
+	<field name="name">SKIN TUMOR EXERESIS</field>
+	<field name="description">SKIN TUMOR EXERESIS</field>
+	<field name="general_info">UNDER LOCAL ANESTHESIA PLUS SEDATION, EXCISION AND DIRECT CLOSURE OF DEFECT/ CLOSURE WITH LOCAL PLASTY/ CLOSURE WITH SKIN GRAFT TAKEN FROM</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- INITIATE AMBULATION</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY, DABBING IT WITH BETADINE.
+- DAILY DRESSING OF THE WOUND WITH AN ANTISEPTIC AND REMOVAL OF STITCHES/SHRINKAGE IN 10 DAYS AT THE HEALTH CENTER.</field>
+	<field name="pathology" ref="health_icd10.C792"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="ZPLASTY">
+	<field name="code">ZPLASTY</field>
+	<field name="name">Z-PLASTY</field>
+	<field name="description">Z-PLASTY</field>
+	<field name="general_info">UNDER LOCAL ANESTHESIA PLUS SEDATION/GENERAL ANESTHESIA, THE FLANGE IS RELEASED BY Z-PLASTY.
+HEMOSTASIS AND CLOSURE WITH LOOSE RESORBABLE STITCHES. DRAINAGE PENROSE TYPE, TO BE REMOVED IN 48H.DAILY CURES WITH BETADINE / CHLORHEXIDINE TOUCHES.</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- START TOLERANCE 4 HOURS AFTER SURGERY 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOLE 1 AMPOULE/8H. 
+- (PRN) METOCLOPRAMIDE IF NAUSEA OR VOMITING 
+- OMEPRAZOLE 40MG 1 VIAL/24H 
+- CONTROL OF DRAINAGE AND VITAL SIGNS</field>
+	<field name="discharge_instructions">- YOUR USUAL TREATMENT, AS ABOVE
+- IF PAIN, PARACTEAMOL 650MG 1 TABLET/8H. IF PAIN INCREASES, ALTERNATE WITH NOLOTIL 575MG 1 TABLET/8H.
+- KEEP THE WOUND CLEAN AND DRY
+- DRESS THE WOUND DAILY WITH ANTISEPTIC AND REMOVE STITCHES/SHRINKAGE WITHIN 10 DAYS AT THE HEALTH CENTER</field>
+	<field name="pathology" ref="health_icd10.L905"></field>
+</record>
+</data>
+</tryton>

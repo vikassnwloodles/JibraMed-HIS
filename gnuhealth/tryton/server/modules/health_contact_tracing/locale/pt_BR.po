@@ -1,0 +1,138 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,comments:"
+msgid "Comments"
+msgstr "Observações"
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,contact:"
+msgid "Contact"
+msgstr "Contato"
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,contact_date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:gnuhealth.contact_tracing,context:"
+msgid "Context"
+msgstr ""
+
+msgctxt "field:gnuhealth.contact_tracing,du:"
+msgid "Dom.Unit"
+msgstr ""
+
+msgctxt "field:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Exposure"
+msgstr ""
+
+msgctxt "field:gnuhealth.contact_tracing,exposure_time:"
+msgid "Exposure time"
+msgstr ""
+
+msgctxt "field:gnuhealth.contact_tracing,operational_sector:"
+msgid "Op.Sector"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,pathology:"
+msgid "Disease"
+msgstr "Doença"
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,patient:"
+msgid "Source"
+msgstr "Origem"
+
+#, fuzzy
+msgctxt "field:gnuhealth.contact_tracing,status:"
+msgid "Status"
+msgstr "Situação"
+
+msgctxt "help:gnuhealth.contact_tracing,contact:"
+msgid "Person that the patient has contacted"
+msgstr ""
+
+msgctxt "help:gnuhealth.contact_tracing,context:"
+msgid "Airport, meeting, concert, ..."
+msgstr ""
+
+#, fuzzy
+msgctxt "help:gnuhealth.contact_tracing,du:"
+msgid "Domiciliary Unit"
+msgstr "Unidade Domiciliário"
+
+msgctxt "help:gnuhealth.contact_tracing,exposure_time:"
+msgid "Exposure time in minutes"
+msgstr ""
+
+msgctxt "help:gnuhealth.contact_tracing,operational_sector:"
+msgid "Operational / Sanitary region"
+msgstr ""
+
+msgctxt "help:gnuhealth.contact_tracing,pathology:"
+msgid "Disease to trace"
+msgstr ""
+
+msgctxt "help:gnuhealth.contact_tracing,patient:"
+msgid "Person suspected or confirmed"
+msgstr ""
+
+msgctxt "help:gnuhealth.contact_tracing,status:"
+msgid ""
+"Unreached: The contact has not been reached yet.\n"
+"Following up: The contact has been traced, demographics information has been created and followup evaluations status are stored in the evaluations"
+msgstr ""
+
+msgctxt "model:gnuhealth.contact_tracing,name:"
+msgid "Person Contacts tracing"
+msgstr ""
+
+msgctxt "model:ir.action,name:gnuhealth_action_contact_tracing"
+msgid "Contact Tracing"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_contact-tracing"
+msgid "Contact Tracing"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "High"
+msgstr "Alto"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Low"
+msgstr "Baixo"
+
+#, fuzzy
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Not available"
+msgstr "Não disponível"
+
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Following up"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Not available"
+msgstr "Não disponível"
+
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Unreached"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.contact_tracing:"
+msgid "Date"
+msgstr "Data"
+
+#, fuzzy
+msgctxt "view:gnuhealth.contact_tracing:"
+msgid "Extra Information"
+msgstr "Informações Extras"

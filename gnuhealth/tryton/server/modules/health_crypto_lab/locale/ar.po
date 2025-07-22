@@ -1,0 +1,158 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.lab,digest_current:"
+msgid "Current Hash"
+msgstr "الخليط الحالي"
+
+msgctxt "field:gnuhealth.lab,digest_status:"
+msgid "Altered"
+msgstr "معدل"
+
+msgctxt "field:gnuhealth.lab,digital_signature:"
+msgid "Digital Signature"
+msgstr "توقيع رقمي"
+
+msgctxt "field:gnuhealth.lab,document_digest:"
+msgid "Digest"
+msgstr "هضم"
+
+msgctxt "field:gnuhealth.lab,done_by:"
+msgid "Done by"
+msgstr "انتهى بواسطة"
+
+msgctxt "field:gnuhealth.lab,done_date:"
+msgid "Finished on"
+msgstr "انتهى في"
+
+msgctxt "field:gnuhealth.lab,historize:"
+msgid "Historize"
+msgstr ""
+
+msgctxt "field:gnuhealth.lab,serializer:"
+msgid "Doc String"
+msgstr "نص المستند"
+
+msgctxt "field:gnuhealth.lab,serializer_current:"
+msgid "Current Doc"
+msgstr "المستند الحالي"
+
+msgctxt "field:gnuhealth.lab,state:"
+msgid "State"
+msgstr "الحالة"
+
+msgctxt "field:gnuhealth.lab,validated_by:"
+msgid "Validated by"
+msgstr "تحقق من قبل"
+
+msgctxt "field:gnuhealth.lab,validation_date:"
+msgid "Validated on"
+msgstr "تحقق من قبل"
+
+msgctxt "help:gnuhealth.lab,digest_status:"
+msgid ""
+"This field will be set whenever parts of the main original document has been"
+" changed. Please note that the verification is done only on selected fields."
+msgstr ""
+"سيتم تعيين هذا الحقل كلما تم تغيير أجزاء من المستند الأصلي الرئيسي. يرجى "
+"ملاحظة أن التحقق يتم فقط في الحقول المحددة."
+
+msgctxt "help:gnuhealth.lab,document_digest:"
+msgid "Original Document Digest"
+msgstr "ملخص المستند الاصلي"
+
+msgctxt "help:gnuhealth.lab,done_by:"
+msgid "Professional who processes this lab test"
+msgstr "المختص الذي عالج هذا التحليل"
+
+msgctxt "help:gnuhealth.lab,historize:"
+msgid ""
+"If this flag is set the a new health condition will be added to the patient "
+"history. Unset it if this lab test is in the context of a pre-existing "
+"condition of the patient. The condition will be created when the lab test is"
+" confirmed and validated"
+msgstr ""
+
+msgctxt "help:gnuhealth.lab,validated_by:"
+msgid "Professional who validates this lab test"
+msgstr "المختص الذي صادق على نتيجة التحليل"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:labtest_generate_button"
+msgid "Done"
+msgstr "منتهي"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:labtest_setdraft_button"
+msgid "Draft"
+msgstr "مسودة"
+
+msgctxt "model:ir.model.button,string:labtest_sign_button"
+msgid "Validate"
+msgstr ""
+
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Done"
+msgstr "انتهى"
+
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Draft"
+msgstr "مسودة"
+
+msgctxt "selection:gnuhealth.lab,state:"
+msgid "Validated"
+msgstr "مصادق"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Are the results ready ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Are you sure to sign this lab results ?"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Digital Signature"
+msgstr "توقيع رقمي"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Document validation"
+msgstr "التحقق من المستند"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Done"
+msgstr "منتهي"
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Draft"
+msgstr "مسودة"
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Reverse the document to draft state."
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Set to Draft ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "The lab test is done and results are waiting to be validated"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate"
+msgstr ""
+
+msgctxt "view:gnuhealth.lab:"
+msgid "Validate and Sign the lab test"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:gnuhealth.lab:"
+msgid "Validation"
+msgstr "التحقق"

@@ -1,0 +1,627 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.epidemics.report.open.start,demographics:"
+msgid "Demographics"
+msgstr "人口统计学"
+
+msgctxt "field:gnuhealth.epidemics.report.open.start,end_date:"
+msgid "End"
+msgstr "结束日期"
+
+msgctxt "field:gnuhealth.epidemics.report.open.start,health_condition:"
+msgid "Condition"
+msgstr "疾病"
+
+msgctxt "field:gnuhealth.epidemics.report.open.start,start_date:"
+msgid "Start"
+msgstr "开始日期"
+
+msgctxt "field:gnuhealth.evaluations.open.start,end_date:"
+msgid "End Date"
+msgstr "结束日期"
+
+msgctxt "field:gnuhealth.evaluations.open.start,group_by:"
+msgid "Group By"
+msgstr "分组依据"
+
+msgctxt "field:gnuhealth.evaluations.open.start,start_date:"
+msgid "Start Date"
+msgstr "开始日期"
+
+msgctxt "field:gnuhealth.evaluations_doctor,doctor:"
+msgid "Doctor"
+msgstr "医务人员"
+
+msgctxt "field:gnuhealth.evaluations_doctor,evaluations:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "field:gnuhealth.evaluations_sector,evaluations:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "field:gnuhealth.evaluations_sector,sector:"
+msgid "Sector"
+msgstr "科室或病区"
+
+msgctxt "field:gnuhealth.evaluations_specialty,evaluations:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "field:gnuhealth.evaluations_specialty,specialty:"
+msgid "Specialty"
+msgstr "专业"
+
+msgctxt "field:gnuhealth.summary.report.open.start,demographics:"
+msgid "Demographics"
+msgstr "人口统计数据"
+
+msgctxt "field:gnuhealth.summary.report.open.start,end_date:"
+msgid "End"
+msgstr "结束日期"
+
+msgctxt "field:gnuhealth.summary.report.open.start,institution:"
+msgid "Institution"
+msgstr "医疗机构"
+
+msgctxt "field:gnuhealth.summary.report.open.start,patient_evaluations:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "field:gnuhealth.summary.report.open.start,start_date:"
+msgid "Start"
+msgstr "开始日期"
+
+msgctxt "field:gnuhealth.top_diseases,cases:"
+msgid "Cases"
+msgstr "例数"
+
+msgctxt "field:gnuhealth.top_diseases,disease:"
+msgid "Disease"
+msgstr "疾病"
+
+msgctxt "field:gnuhealth.top_diseases.open.start,end_date:"
+msgid "End Date"
+msgstr "结束日期"
+
+msgctxt "field:gnuhealth.top_diseases.open.start,group:"
+msgid "Disease Group"
+msgstr "疾病分组"
+
+msgctxt "field:gnuhealth.top_diseases.open.start,number_records:"
+msgid "Number of Records"
+msgstr "显示条数"
+
+msgctxt "field:gnuhealth.top_diseases.open.start,start_date:"
+msgid "Start Date"
+msgstr "开始日期"
+
+msgctxt "model:gnuhealth.epidemics.report.open.start,name:"
+msgid "Epidemics Report Start"
+msgstr "疫情报告开始"
+
+msgctxt "model:gnuhealth.evaluations.open.start,name:"
+msgid "Open Evaluations"
+msgstr "打开患者评估人次统计表"
+
+msgctxt "model:gnuhealth.evaluations_doctor,name:"
+msgid "Evaluations per Doctor"
+msgstr "患者评估人次(按医务人员分组)"
+
+msgctxt "model:gnuhealth.evaluations_sector,name:"
+msgid "Evaluations per Sector"
+msgstr "患者评估人次(按科室或病区分组)"
+
+msgctxt "model:gnuhealth.evaluations_specialty,name:"
+msgid "Evaluations per Specialty"
+msgstr "患者评估人次(按专业分组)"
+
+msgctxt "model:gnuhealth.summary.report.open.start,name:"
+msgid "Summary Report Start"
+msgstr "医疗机构总结报告开始"
+
+msgctxt "model:gnuhealth.top_diseases,name:"
+msgid "Top Diseases"
+msgstr "疾病排行榜"
+
+msgctxt "model:gnuhealth.top_diseases.open.start,name:"
+msgid "Open Top Diseases"
+msgstr "打开疾病排行榜"
+
+msgctxt "model:ir.action,name:act_evaluations_doctor"
+msgid "Evaluations per Doctor"
+msgstr "患者评估人次(按医务人员分组)"
+
+msgctxt "model:ir.action,name:act_evaluations_open"
+msgid "Evaluations Report"
+msgstr "患者评估人次统计表"
+
+msgctxt "model:ir.action,name:act_evaluations_sector"
+msgid "Evaluations per Sector"
+msgstr "患者评估人次(按科室或者病区分组)"
+
+msgctxt "model:ir.action,name:act_evaluations_specialty"
+msgid "Evaluations per Specialty"
+msgstr "患者评估人次(按专业分组)"
+
+msgctxt "model:ir.action,name:act_top_diseases_form"
+msgid "Top Diseases"
+msgstr "疾病排行榜"
+
+msgctxt "model:ir.action,name:act_top_diseases_open"
+msgid "Top Diseases"
+msgstr "疾病排行榜"
+
+msgctxt "model:ir.action,name:act_wizard_epidemics_report"
+msgid "Epidemiological Surveillance"
+msgstr "流行病学监测"
+
+msgctxt "model:ir.action,name:act_wizard_summary_report"
+msgid "Summary Report"
+msgstr "医疗机构总结报告"
+
+msgctxt "model:ir.action,name:report_epidemics_information"
+msgid "Epidemiological Surveillance"
+msgstr "流行病学监测"
+
+msgctxt "model:ir.action,name:report_summary_information"
+msgid "Summary Report"
+msgstr "医疗机构总结报告"
+
+msgctxt "model:ir.message,text:msg_plot_label_immediate_cause_str"
+msgid "Immediate cause"
+msgstr "直接死因"
+
+msgctxt "model:ir.message,text:msg_plot_label_underlying_condition_str"
+msgid "Underlying condition"
+msgstr "间接死因"
+
+msgctxt "model:ir.ui.menu,name:menu_evaluations_open"
+msgid "Evaluations Report"
+msgstr "患者评估人次统计表"
+
+msgctxt "model:ir.ui.menu,name:menu_institution_epidemics_report"
+msgid "Epidemiological Surveillance"
+msgstr "流行病学监测"
+
+msgctxt "model:ir.ui.menu,name:menu_institution_summary_report"
+msgid "Summary Report"
+msgstr "医疗机构总结报告"
+
+msgctxt "model:ir.ui.menu,name:menu_top_diseases_open"
+msgid "Top Diseases"
+msgstr "疾病排行榜"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "("
+msgstr "("
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid ")"
+msgstr ")"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "-"
+msgstr "-"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "15 – 45"
+msgstr "15 – 45"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "15-44"
+msgstr "15-44"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "45 – 60"
+msgstr "45 – 60"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "45-60"
+msgstr "45-60"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "5 – 14"
+msgstr "5 – 14"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "5-14"
+msgstr "5-14"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "< 5"
+msgstr "< 5"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "<5"
+msgstr "<5"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "> 60"
+msgstr "> 60"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid ">60"
+msgstr ">60"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Age group"
+msgstr "年龄组"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Birth certs"
+msgstr "出生证明"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Cases by age group"
+msgstr "按年龄组划分的病例"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Cases by ethnic group:"
+msgstr "按种族划分的病例:"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Cases by socioeconomic group:"
+msgstr "按社会经济情况划分的病例:"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Confirmed cases"
+msgstr "确诊病例"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Death certs"
+msgstr "死亡证明"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Deaths"
+msgstr "死亡"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Distribution by Ethnic group"
+msgstr "按种族划分的分布情况"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Distribution by Socioeconomic Status"
+msgstr "按社会经济地位划分的分布"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Epidemiological Surveillance"
+msgstr "流行病学监测"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Female"
+msgstr "女性"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "In health system"
+msgstr "新注册患者"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "In this period"
+msgstr "期间"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Living Population"
+msgstr "人口数量"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Male"
+msgstr "男性"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "New cases by days:"
+msgstr "按天计算的新增例数:"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "New deaths by day:"
+msgstr "按天计算的死亡例数:"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "No Age"
+msgstr "无年龄"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "No DoB"
+msgstr "无出生日期"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Registrations"
+msgstr "新注册人员"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Total"
+msgstr "合计"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "chart"
+msgstr "图表"
+
+msgctxt "report:gnuhealth.epidemics.report:"
+msgid "Σ"
+msgstr "Σ"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "("
+msgstr "("
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid ")"
+msgstr ")"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid ","
+msgstr ","
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "-"
+msgstr "-"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "0-4"
+msgstr "0-4"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "10-14"
+msgstr "10-14"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "100-104"
+msgstr "100-104"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "105+ years old"
+msgstr "105 岁以上"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "15 – 45"
+msgstr "15 – 45"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "15-19"
+msgstr "15-19"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "20-24"
+msgstr "20-24"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "25-29"
+msgstr "25-29"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "30-34"
+msgstr "30-34"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "35-39"
+msgstr "35-39"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "40-44"
+msgstr "40-44"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "45 – 60"
+msgstr "45 – 60"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "45-49"
+msgstr "45-49"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "5 – 14"
+msgstr "5 – 14"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "5-9"
+msgstr "5-9"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "50-54"
+msgstr "50-54"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "55-59"
+msgstr "55-59"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "60-64"
+msgstr "60-64"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "65-69"
+msgstr "65-69"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "70-74"
+msgstr "70-74"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "75-79"
+msgstr "75-79"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "80-84"
+msgstr "80-84"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "85-89"
+msgstr "85-89"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "90-94"
+msgstr "90-94"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "95-99"
+msgstr "95-99"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "< 5"
+msgstr "< 5"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "> 60"
+msgstr "> 60"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Age range"
+msgstr "年龄区间"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Birth certs"
+msgstr "出生证明"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Death certs"
+msgstr "死亡证明"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Diagnostics"
+msgstr "诊断"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Evaluations Diagnostics"
+msgstr "评估诊断"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Female"
+msgstr "女"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "GNU Health Summary Report"
+msgstr "GNU Health 医疗机构总结报告"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "In health system"
+msgstr "新注册患者"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "In this period"
+msgstr "期间"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Living Population"
+msgstr "人口数量"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Male"
+msgstr "男"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Male stacked"
+msgstr "男性(折叠不显示)"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "New"
+msgstr "新增"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "No Age"
+msgstr "无年龄"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "No DoB"
+msgstr "无出生日期"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Non-Dx"
+msgstr "无诊断信息"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Population Pyramid"
+msgstr "人口金字塔"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Printed Date:"
+msgstr "打印日期:"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Registrations"
+msgstr "新注册人员"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "chart"
+msgstr "图表"
+
+msgctxt "report:gnuhealth.summary.report:"
+msgid "Σ"
+msgstr "Σ"
+
+msgctxt "selection:gnuhealth.evaluations.open.start,group_by:"
+msgid "Doctor"
+msgstr "医务人员"
+
+msgctxt "selection:gnuhealth.evaluations.open.start,group_by:"
+msgid "Sector"
+msgstr "科室或病区"
+
+msgctxt "selection:gnuhealth.evaluations.open.start,group_by:"
+msgid "Specialty"
+msgstr "专业"
+
+msgctxt "view:gnuhealth.epidemics.report.open.start:"
+msgid "Main"
+msgstr "主要情况"
+
+msgctxt "view:gnuhealth.epidemics.report.open.start:"
+msgid "Sections"
+msgstr "科室或病区"
+
+msgctxt "view:gnuhealth.evaluations_doctor:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "view:gnuhealth.evaluations_sector:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "view:gnuhealth.evaluations_specialty:"
+msgid "Evaluations"
+msgstr "患者评估人次"
+
+msgctxt "view:gnuhealth.summary.report.open.start:"
+msgid "Main"
+msgstr "主要"
+
+msgctxt "view:gnuhealth.summary.report.open.start:"
+msgid "Sections"
+msgstr "科室或病区"
+
+msgctxt "view:gnuhealth.top_diseases:"
+msgid "Cases"
+msgstr "例数"
+
+msgctxt "wizard_button:gnuhealth.epidemics.report.open,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:gnuhealth.epidemics.report.open,start,open_:"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "wizard_button:gnuhealth.evaluations.open,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:gnuhealth.evaluations.open,start,select:"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "wizard_button:gnuhealth.summary.report.open,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:gnuhealth.summary.report.open,start,open_:"
+msgid "Open"
+msgstr "打开"
+
+msgctxt "wizard_button:gnuhealth.top_diseases.open,start,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:gnuhealth.top_diseases.open,start,open_:"
+msgid "Open"
+msgstr "打开"

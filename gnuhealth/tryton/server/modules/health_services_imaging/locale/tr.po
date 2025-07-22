@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.imaging.test.request,service:"
+msgid "Service"
+msgstr "Servis"
+
+msgctxt "field:gnuhealth.imaging.test.request,service_updated:"
+msgid "Service updated"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,service:"
+msgid "Service"
+msgstr "Servis"
+
+msgctxt "field:gnuhealth.patient.imaging.test.request.start,ungroup_tests:"
+msgid "Ungroup"
+msgstr ""
+
+msgctxt "help:gnuhealth.imaging.test.request,service:"
+msgid "Service document associated to this Imaging Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.imaging.test.request.start,service:"
+msgid "Service document associated to this Imaging Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.imaging.test.request.start,ungroup_tests:"
+msgid ""
+"Check if you DO NOT want to include each individual Dx imaging test from this order in the imaging test generation step. This is useful when some services are not provided in the same institution.\n"
+"In this case, you need to individually update the service document from each individual test"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_no_service_associated"
+msgid "SM-SERVICES_IMAGING-0001: Need to associate a service"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_service_has_been_updated"
+msgid ""
+"SM-SERVICES_IMAGING-0002: \"Service updated\" is \"yes\" indicates that the "
+"service has been updated, please verify it again."
+msgstr ""
+
+msgctxt "model:ir.model.button,string:srvimg_update_button"
+msgid "Update Services"
+msgstr ""
+
+msgctxt "selection:gnuhealth.imaging.test.request,service_updated:"
+msgid "No"
+msgstr ""
+
+msgctxt "selection:gnuhealth.imaging.test.request,service_updated:"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "selection:gnuhealth.imaging.test.request,service_updated:"
+msgid "Yes"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging.test.request:"
+msgid "Transfer imaging request to services ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging.test.request:"
+msgid "Update Service document with this imaging request ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.imaging.test.request:"
+msgid "Update Services"
+msgstr ""

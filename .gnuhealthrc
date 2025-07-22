@@ -1,0 +1,67 @@
+# SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+# SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+#########################################################################
+#   Hospital Management Information System (HMIS) component of the      #
+#                       GNU Health project                              #
+#                   https://www.gnuhealth.org                           #
+#########################################################################
+#                             gnuhealthrc                               #
+#                  Resource file for GNUHealth HMIS                     #     
+#                       for BASH and ZSH shells                         #
+#########################################################################
+
+export EDITOR=vi
+
+GNUHEALTH_DIR="$(realpath gnuhealth)"
+
+if ! type $EDITOR >/dev/null ; then
+    echo "$EDITOR not found" 
+fi
+
+# Get the most current Tryton server version
+# It should only be one trytond, but just in case..
+TRYTOND=`ls -1d ${GNUHEALTH_DIR}/tryton/server/trytond-* | egrep -o "trytond-[0-9\.]+.[0-9\.]+.[0-9\.]+" | sort -V | tail -1`
+
+export TRYTON_VERSION=`echo $TRYTOND | cut -d'-' -f2`
+
+# Add PYTHONPATH environment variable 
+export PYTHONPATH=${GNUHEALTH_DIR}/tryton/server/${TRYTOND}:${GNUHEALTH_DIR}/tryton/server/config
+
+# Include local directory (gunicorn and other python executables)
+export PATH=$PATH:$HOME/.local/bin
+
+# Add Tryton server configuration file
+export TRYTOND_CONFIG=${GNUHEALTH_DIR}/tryton/server/config/trytond.conf
+
+# Aliases
+alias cdlogs='cd ${GNUHEALTH_DIR}/logs'
+alias cdexe='cd ${GNUHEALTH_DIR}/tryton/server/${TRYTOND}/bin'
+alias cdutil='cd ${GNUHEALTH_DIR}/tryton/server/util'
+alias cdconf='cd ${GNUHEALTH_DIR}/tryton/server/config'
+alias cdmods='cd ${GNUHEALTH_DIR}/tryton/server/modules'
+alias editconf='${EDITOR} ${TRYTOND_CONFIG}'
+
+# Protect from accidental deletions 
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ls='ls --color=auto'
+
+#GNU HEALTH version
+export GNUHEALTH_VERSION=`cat ${GNUHEALTH_DIR}/version`
+
+
+#Prompt
+#It tries to guess the right shell from user shell or invocation
+#and picks the prompt accordingly
+#
+#Currently supports BASH and ZSH
+
+if [[ $SHELL == *"bash" || $0 == *"bash" ]]; then
+  PS1="\[\e[96;2m\]\u@\h \w $ \[\e[0m\]"
+elif [[ $SHELL == *"zsh" || $0 == *"zsh" ]]; then
+  PS1="%F{cyan}%n@%m %/ $ %f"
+fi

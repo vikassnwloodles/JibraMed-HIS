@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+    <group string="Disease" id="disease_header" colspan="4" col="8">
+        <label name="name"/>
+        <field name="name"/>
+        <label name="disease_name"/>
+        <field name="disease_name"/>
+        <label name="acronym"/>
+        <field name="acronym"/>
+        <label name="keywords"/>
+        <field name="keywords"/>
+    </group>
+    <newline/>
+    <group string="Protein and Gene" id="misc_info" colspan="4" col="10">
+        <label name="disease_uri"/>
+        <field name="disease_uri" widget="url"/>
+        <label name="inheritance_pattern"/>
+        <field name="inheritance_pattern"/>
+        <label name="mim_reference"/>
+        <field name="mim_reference"/>
+        <label name="xrefs"/>
+        <field name="xrefs"/>
+    </group>
+    <newline/>
+    <field colspan="4" name="description"/>
+    <newline/>
+    <field colspan="4" name="gene_variant"/>
+    <newline/>
+    <label name="active"/>
+    <field name="active"/>
+
+</form>

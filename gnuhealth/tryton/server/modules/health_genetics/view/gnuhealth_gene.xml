@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+    <label name="hgnc_id"/>
+    <field name="hgnc_id"/>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="long_name"/>
+    <field name="long_name"/>
+    <label name="gene_type"/>
+    <field name="gene_type"/>
+    <newline/>
+    <label name="chromosome"/>
+    <field name="chromosome"/>
+    <label name="location"/>
+    <field name="location"/>
+    <newline/>
+    <label name="gene_id"/>
+    <field name="gene_id"/>
+    <label name="aliases"/>
+    <field name="aliases"/>
+    <label name="name_aliases"/>
+    <field name="name_aliases"/>
+    <label name="ensembl_id"/>
+    <field name="ensembl_id"/>
+    <label name="refseq_accession"/>
+    <field name="refseq_accession"/>
+    <label name="omim_id"/>
+    <field name="omim_id"/>
+    <newline/>
+    <label name="protein_name"/>
+    <field name="protein_name"/>
+    <label name="protein_uri"/>
+    <field name="protein_uri" widget="url"/>
+    <newline/>
+    <field colspan="4" name="variants"/>
+    <newline/>
+    <field colspan="4" name="info"/>
+</form>

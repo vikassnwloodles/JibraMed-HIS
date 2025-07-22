@@ -1,0 +1,125 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.contact_tracing,comments:"
+msgid "Comments"
+msgstr "Kommentar"
+
+msgctxt "field:gnuhealth.contact_tracing,contact:"
+msgid "Contact"
+msgstr "Kontakt"
+
+msgctxt "field:gnuhealth.contact_tracing,contact_date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:gnuhealth.contact_tracing,context:"
+msgid "Context"
+msgstr "Kontext"
+
+msgctxt "field:gnuhealth.contact_tracing,du:"
+msgid "Dom.Unit"
+msgstr "Wohneinheit"
+
+msgctxt "field:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Exposure"
+msgstr "Exposition"
+
+msgctxt "field:gnuhealth.contact_tracing,exposure_time:"
+msgid "Exposure time"
+msgstr "Expositionszeit"
+
+msgctxt "field:gnuhealth.contact_tracing,operational_sector:"
+msgid "Op.Sector"
+msgstr "Gesundheitssprengel"
+
+msgctxt "field:gnuhealth.contact_tracing,pathology:"
+msgid "Disease"
+msgstr "Krankheit"
+
+msgctxt "field:gnuhealth.contact_tracing,patient:"
+msgid "Source"
+msgstr "Quelle"
+
+msgctxt "field:gnuhealth.contact_tracing,status:"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "help:gnuhealth.contact_tracing,contact:"
+msgid "Person that the patient has contacted"
+msgstr "Person, die der Patient kontaktiert hat"
+
+msgctxt "help:gnuhealth.contact_tracing,context:"
+msgid "Airport, meeting, concert, ..."
+msgstr "Flughafen, meeting, Konzert, ..."
+
+msgctxt "help:gnuhealth.contact_tracing,du:"
+msgid "Domiciliary Unit"
+msgstr "Wohneinheit"
+
+msgctxt "help:gnuhealth.contact_tracing,exposure_time:"
+msgid "Exposure time in minutes"
+msgstr "Expositionszeit in Minuten"
+
+msgctxt "help:gnuhealth.contact_tracing,operational_sector:"
+msgid "Operational / Sanitary region"
+msgstr "Gesundheitssprengel"
+
+msgctxt "help:gnuhealth.contact_tracing,pathology:"
+msgid "Disease to trace"
+msgstr "nachzuverfolgende Krankheit"
+
+msgctxt "help:gnuhealth.contact_tracing,patient:"
+msgid "Person suspected or confirmed"
+msgstr "Person (bestätigt oder Verdacht)"
+
+msgctxt "help:gnuhealth.contact_tracing,status:"
+msgid ""
+"Unreached: The contact has not been reached yet.\n"
+"Following up: The contact has been traced, demographics information has been created and followup evaluations status are stored in the evaluations"
+msgstr ""
+
+msgctxt "model:gnuhealth.contact_tracing,name:"
+msgid "Person Contacts tracing"
+msgstr "Kontaktperson Name"
+
+msgctxt "model:ir.action,name:gnuhealth_action_contact_tracing"
+msgid "Contact Tracing"
+msgstr "Kontaktnachverfolgung"
+
+msgctxt "model:ir.ui.menu,name:gnuhealth_contact-tracing"
+msgid "Contact Tracing"
+msgstr "Kontaktnachverfolgung"
+
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "High"
+msgstr "Hoch"
+
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Low"
+msgstr "Niedrig"
+
+msgctxt "selection:gnuhealth.contact_tracing,exposure_risk:"
+msgid "Not available"
+msgstr "nicht verfügbar"
+
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Following up"
+msgstr "Folgetermin"
+
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Not available"
+msgstr "nicht verfügbar"
+
+msgctxt "selection:gnuhealth.contact_tracing,status:"
+msgid "Unreached"
+msgstr "nicht erreicht"
+
+msgctxt "view:gnuhealth.contact_tracing:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "view:gnuhealth.contact_tracing:"
+msgid "Extra Information"
+msgstr "Zusatzinformation"

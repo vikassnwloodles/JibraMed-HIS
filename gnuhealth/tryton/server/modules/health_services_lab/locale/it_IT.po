@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.patient.lab.test,service:"
+msgid "Service"
+msgstr "Servizio"
+
+msgctxt "field:gnuhealth.patient.lab.test,service_updated:"
+msgid "Service updated"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service"
+msgstr "Servizio"
+
+msgctxt "field:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid "Ungroup"
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.lab.test,service:"
+msgid "Service document associated to this Lab Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,service:"
+msgid "Service document associated to this Lab Request"
+msgstr ""
+
+msgctxt "help:gnuhealth.patient.lab.test.request.start,ungroup_tests:"
+msgid ""
+"Check if you DO NOT want to include each individual lab test from this order in the lab test generation step. This is useful when some services are not provided in the same institution.\n"
+"In this case, you need to individually update the service document from each individual test"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_no_service_associated"
+msgid "SM-SERVICES_LAB-0001: Need to associate a service"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_service_has_been_updated"
+msgid ""
+"SM-SERVICES_LAB-0002: \"Service updated\" is \"yes\" indicates that the "
+"service has been updated, please verify it again."
+msgstr ""
+
+msgctxt "model:ir.model.button,string:srvlab_update_button"
+msgid "Update Services"
+msgstr ""
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "No"
+msgstr ""
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "selection:gnuhealth.patient.lab.test,service_updated:"
+msgid "Yes"
+msgstr ""
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Transfer lab request to services ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Service document with this lab request ?"
+msgstr ""
+
+msgctxt "view:gnuhealth.patient.lab.test:"
+msgid "Update Services"
+msgstr ""

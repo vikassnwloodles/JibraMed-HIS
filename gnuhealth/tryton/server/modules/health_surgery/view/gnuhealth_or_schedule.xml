@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+    <group id="or_shcedule_header" string="Main" colspan="4" col="4">
+        <label name="name"/>
+        <field name="name"/>
+        <label name="surgery"/>
+        <field name="surgery"/>
+        <label name="reserve_from"/>
+        <field name="reserve_from"/>
+        <label name="reserve_to"/>
+        <field name="reserve_to"/>
+    </group>
+    <group id="or_schedule_details" string="Details" colspan="4" col="10">
+        <label name="healthprof"/>
+        <field name="healthprof"/>
+        <label name="patient"/>
+        <field name="patient"/>
+        <label name="health_condition"/>
+        <field name="health_condition"/>
+        <label name="specialty"/>
+        <field name="specialty"/>
+        <label name="urgency"/>
+        <field name="urgency"/>
+    </group>
+    <newline/>
+    <separator id="or_schedule_remarks" string="Remarks" colspan="4"/>
+    <newline/>
+    <field name="comments" colspan="4"/>
+    <group id="or_shcedule_footer" colspan="4">
+        <label name="institution"/>
+        <field name="institution"/>
+        <label name="state"/>
+        <field name="state"/>
+    </group>
+</form>

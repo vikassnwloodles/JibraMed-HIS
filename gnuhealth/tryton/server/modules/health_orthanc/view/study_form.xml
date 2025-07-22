@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<form>
+  <group colspan="4" string="Orthanc" id="orthanc_info">
+    <label name="patient"/>
+    <field name="patient"/>
+    <label name="date"/>
+    <field name="date"/>
+    <label name="description"/>
+    <field name="description"/>
+    <label name="ident"/>
+    <field name="ident"/>
+    <label name="uuid"/>
+    <field name="uuid"/>
+    <label name="instance_uid"/>
+    <field name="instance_uid"/>
+    <label name="institution"/>
+    <field name="institution"/>
+    <label name="ref_phys"/>
+    <field name="ref_phys"/>
+    <label name="req_phys"/>
+    <field name="req_phys"/>
+    <label name="server"/>
+    <group colspan="1" col="12" id="group_server_and_link">
+      <field name="server" colspan="11"/>
+      <field name="link" widget="url" colspan="1"/>
+    </group>
+  </group>
+  <newline/>
+  <separator string=" " id="blank_line"/>
+  <newline/>
+  <group colspan="4" string="GNU Health" id="gnuhealth_info">
+    <label name="imaging_test"/>
+    <field name="imaging_test"/>
+    <label name="merge_id"/>
+    <field name="merge_id"/>
+  </group>
+</form>

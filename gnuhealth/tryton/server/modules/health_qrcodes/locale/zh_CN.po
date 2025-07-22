@@ -1,0 +1,187 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:gnuhealth.appointment,qr:"
+msgid "QR Code"
+msgstr "二维码"
+
+msgctxt "field:gnuhealth.lab,bar:"
+msgid "Bar Code39"
+msgstr "条形码"
+
+msgctxt "field:gnuhealth.lab,qr:"
+msgid "QR Code"
+msgstr "二维码"
+
+msgctxt "field:gnuhealth.newborn,qr:"
+msgid "QR Code"
+msgstr "二维码"
+
+msgctxt "field:gnuhealth.patient,barcode:"
+msgid "Code39"
+msgstr "Code39"
+
+msgctxt "field:gnuhealth.patient,qr:"
+msgid "QR Code"
+msgstr "二维码"
+
+msgctxt "field:party.party,barcode:"
+msgid "Code39"
+msgstr "Code39"
+
+msgctxt "model:ir.action,name:report_appointment_qrcode"
+msgid "Appointment QRCODE"
+msgstr "预约凭证（带二维码）"
+
+msgctxt "model:ir.action,name:report_labtest_barcode39"
+msgid "Code39 barcode label"
+msgstr "条形码标签"
+
+msgctxt "model:ir.action,name:report_labtest_qrcode"
+msgid "Test Labels"
+msgstr "检验项目标签"
+
+msgctxt "model:ir.action,name:report_newborn_qrcard"
+msgid "Newborn ID - QR"
+msgstr "新生儿ID（二维码）"
+
+msgctxt "model:ir.action,name:report_party_wristband"
+msgid "Wristbands"
+msgstr "腕带"
+
+msgctxt "model:ir.action,name:report_patient_qrcard"
+msgid "ID Cards - QR"
+msgstr "就诊卡（带二维码）"
+
+msgctxt "model:ir.action,name:report_patient_wristband"
+msgid "Wristbands"
+msgstr "腕带"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Appointment Receipt"
+msgstr "预约凭证"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Apporintment #"
+msgstr "预约号 #"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Date:"
+msgstr "日期:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Health Professional:"
+msgstr "医务人员:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Institution:"
+msgstr "医疗机构:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Instructions / Notes:"
+msgstr "说明 / 注意事项:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "PUID:"
+msgstr "证件号码:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Patient:"
+msgstr "患者:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Specialty:"
+msgstr "专业:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "You must present this receipt and your PUID"
+msgstr "你必须出示这张预约单和证件号码"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Cap label"
+msgstr "取样容器标签"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Extraction date:"
+msgstr "采样日期:"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "ID:"
+msgstr "ID:"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Req by:"
+msgstr "申请人:"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Source:"
+msgstr "样本来源:"
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Test:"
+msgstr "检验:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "DoB:"
+msgstr "出生日期:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Ht / Wt:"
+msgstr "身长 / 体重:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Mother ID:"
+msgstr "母亲证件号:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Mother:"
+msgstr "母亲:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Name:"
+msgstr "姓名:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "PUID:"
+msgstr "证件号码:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Sex:"
+msgstr "性别:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "photo"
+msgstr "照片"
+
+msgctxt "report:party.wristband:"
+msgid "("
+msgstr "("
+
+msgctxt "report:party.wristband:"
+msgid ")"
+msgstr ")"
+
+msgctxt "report:patient.qrcard:"
+msgid "Blood Type:"
+msgstr "血型:"
+
+msgctxt "report:patient.qrcard:"
+msgid "DoB:"
+msgstr "出生日期:"
+
+msgctxt "report:patient.qrcard:"
+msgid "Gender:"
+msgstr "性别:"
+
+msgctxt "report:patient.qrcard:"
+msgid "Name:"
+msgstr "姓名:"
+
+msgctxt "report:patient.qrcard:"
+msgid "PUID:"
+msgstr "证件号码:"
+
+msgctxt "report:patient.qrcard:"
+msgid "photo"
+msgstr "照片"

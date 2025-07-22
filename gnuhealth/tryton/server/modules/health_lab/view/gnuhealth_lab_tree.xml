@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!--
+SPDX-FileCopyrightText: 2008-2024 Luis Falcón <falcon@gnuhealth.org>
+SPDX-FileCopyrightText: 2011-2024 GNU Solidario <health@gnusolidario.org>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<tree>
+    <field name="name" expand="1"/>
+    <field name="test" expand="1"/>
+    <field name="request_order" expand="1"/>
+    <field name="source_type" expand="1"/>
+    <field name="source_name" expand="1"/>
+    <field name="date_analysis" widget="date" expand="1"/>
+    <field name="analytes_summary" expand="1"/>
+</tree>

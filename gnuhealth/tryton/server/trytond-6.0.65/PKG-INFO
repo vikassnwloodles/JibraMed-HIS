@@ -1,0 +1,101 @@
+Metadata-Version: 2.4
+Name: trytond
+Version: 6.0.65
+Summary: Tryton server
+Home-page: http://www.tryton.org/
+Download-URL: http://downloads.tryton.org/6.0/
+Author: Tryton
+Author-email: bugs@tryton.org
+License: GPL-3
+Project-URL: Bug Tracker, https://bugs.tryton.org/
+Project-URL: Documentation, https://docs.tryton.org/latest/server/
+Project-URL: Forum, https://www.tryton.org/forum
+Project-URL: Source Code, https://hg.tryton.org/trytond
+Keywords: business application platform ERP
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: Bulgarian
+Classifier: Natural Language :: Catalan
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Czech
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Finnish
+Classifier: Natural Language :: French
+Classifier: Natural Language :: German
+Classifier: Natural Language :: Hungarian
+Classifier: Natural Language :: Indonesian
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Persian
+Classifier: Natural Language :: Polish
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Natural Language :: Romanian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Slovenian
+Classifier: Natural Language :: Spanish
+Classifier: Natural Language :: Turkish
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: defusedxml
+Requires-Dist: lxml>=2.0
+Requires-Dist: relatorio[fodt]>=0.7.0
+Requires-Dist: Genshi
+Requires-Dist: python-dateutil
+Requires-Dist: polib
+Requires-Dist: python-sql>=0.5
+Requires-Dist: werkzeug>=0.12
+Requires-Dist: wrapt
+Requires-Dist: passlib>=1.7.0
+Provides-Extra: postgresql
+Requires-Dist: psycopg2>=2.7.0; extra == "postgresql"
+Provides-Extra: graphviz
+Requires-Dist: pydot; extra == "graphviz"
+Provides-Extra: levenshtein
+Requires-Dist: python-Levenshtein; extra == "levenshtein"
+Provides-Extra: bcrypt
+Requires-Dist: passlib[bcrypt]; extra == "bcrypt"
+Provides-Extra: html2text
+Requires-Dist: html2text; extra == "html2text"
+Provides-Extra: weasyprint
+Requires-Dist: weasyprint; extra == "weasyprint"
+Provides-Extra: coroutine
+Requires-Dist: gevent>=1.1; extra == "coroutine"
+Provides-Extra: image
+Requires-Dist: pillow; extra == "image"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: platform
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+trytond
+=======
+
+The server of Tryton.
+Tryton is business software, ideal for companies of any size, easy to use,
+complete and 100% Open Source.
+It provides modularity, scalability and security.

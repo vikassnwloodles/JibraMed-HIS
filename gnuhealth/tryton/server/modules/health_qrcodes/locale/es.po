@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:gnuhealth.appointment,qr:"
+msgid "QR Code"
+msgstr "Código QR"
+
+msgctxt "field:gnuhealth.lab,bar:"
+msgid "Bar Code39"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:gnuhealth.lab,qr:"
+msgid "QR Code"
+msgstr "Código QR"
+
+msgctxt "field:gnuhealth.newborn,qr:"
+msgid "QR Code"
+msgstr "Código QR"
+
+msgctxt "field:gnuhealth.patient,barcode:"
+msgid "Code39"
+msgstr ""
+
+msgctxt "field:gnuhealth.patient,qr:"
+msgid "QR Code"
+msgstr "Código QR"
+
+msgctxt "field:party.party,barcode:"
+msgid "Code39"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_appointment_qrcode"
+msgid "Appointment QRCODE"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_labtest_barcode39"
+msgid "Code39 barcode label"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_labtest_qrcode"
+msgid "Test Labels"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_newborn_qrcard"
+msgid "Newborn ID - QR"
+msgstr "ID - QR del recién nacido"
+
+msgctxt "model:ir.action,name:report_party_wristband"
+msgid "Wristbands"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_patient_qrcard"
+msgid "ID Cards - QR"
+msgstr "Tarjetas ID-QR"
+
+msgctxt "model:ir.action,name:report_patient_wristband"
+msgid "Wristbands"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:appointment.qrcodel:"
+msgid "Appointment Receipt"
+msgstr "Recibo de la cita"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Apporintment #"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:appointment.qrcodel:"
+msgid "Date:"
+msgstr "Fecha:"
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Health Professional:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Institution:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Instructions / Notes:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "PUID:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Patient:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "Specialty:"
+msgstr ""
+
+msgctxt "report:appointment.qrcodel:"
+msgid "You must present this receipt and your PUID"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Cap label"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Extraction date:"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "ID:"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Req by:"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Source:"
+msgstr ""
+
+msgctxt "report:labtest.qrlabel:"
+msgid "Test:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:newborn.qrcard:"
+msgid "DoB:"
+msgstr "FNac:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "Ht / Wt:"
+msgstr ""
+
+msgctxt "report:newborn.qrcard:"
+msgid "Mother ID:"
+msgstr ""
+
+msgctxt "report:newborn.qrcard:"
+msgid "Mother:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:newborn.qrcard:"
+msgid "Name:"
+msgstr "Nombre:"
+
+msgctxt "report:newborn.qrcard:"
+msgid "PUID:"
+msgstr ""
+
+msgctxt "report:newborn.qrcard:"
+msgid "Sex:"
+msgstr ""
+
+msgctxt "report:newborn.qrcard:"
+msgid "photo"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:party.wristband:"
+msgid "("
+msgstr "("
+
+#, fuzzy
+msgctxt "report:party.wristband:"
+msgid ")"
+msgstr "("
+
+msgctxt "report:patient.qrcard:"
+msgid "Blood Type:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.qrcard:"
+msgid "DoB:"
+msgstr "FNac:"
+
+msgctxt "report:patient.qrcard:"
+msgid "Gender:"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:patient.qrcard:"
+msgid "Name:"
+msgstr "Nombre:"
+
+msgctxt "report:patient.qrcard:"
+msgid "PUID:"
+msgstr ""
+
+msgctxt "report:patient.qrcard:"
+msgid "photo"
+msgstr ""

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tryton>
+<data>
+<record model="gnuhealth.surgery.protocol" id="SPROT2">
+	<field name="name">absceso brazo izqueirdo</field>
+	<field name="description">granuloma secundario a osteomielitis brazo derecho</field>
+	<field name="general_info">Incision eliptica rsecando piel fistulizada. Curetaje de la zona</field>
+	<field name="anesthesia_type"></field>
+	<field name="approach"></field>
+	<field name="laterality">right</field>
+	<field name="patient_positioning"></field>
+	<field name="classification"></field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions"></field>
+	<field name="pathology" ref="health_icd10.M86"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT3">
+	<field name="name">AMPUTACION SUPRACONDILEA</field>
+	<field name="description"></field>
+	<field name="general_info"></field>
+	<field name="anesthesia_type"></field>
+	<field name="approach"></field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification"></field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT4">
+	<field name="name">CESÁREA URGENTE</field>
+	<field name="description">DISTOCIA OBSTÉTRICA/RIESGO DE PERDIDA DE BIENESTAR FETAL</field>
+	<field name="general_info">Sondaje vesical y profilaxis antibiótica. Incisión de Pfanenstiel. Apertura pared abdominal por capas. Histerotomía segmentaria transversa. Extracción Feto que llora en campo quirúrgico. Pinzamiento cordón umbilical. Extracción de placenta, repaso de cavidad con gasa. Histerorrafia continua Vycril 1. Cierre por planos de cavidad. Recuento material quirúrgico.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">u</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 6 HORAS DE LA CIRUGÍA
+-	METAMIZOL 1 AMPOLLA/8H.
+-	METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS, 1 AMP/8H
+-       PARACETAMOL 1GR IV/8H, SI PRECISA DE RESCATE.
+-	OMEPRAZOL 20MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL A LAS 24 H
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, LE MÊME.
+- SI DOULEUR, PARACÉTAMOL 650MG, 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- UN REPOS RELATIF PENDANT DEUX SEMAINES
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, RENDEZ-VOUS AUX URGENCES DU CENTRE DE SANTÉ.</field>
+	<field name="pathology" ref="health_icd10.O660"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT5">
+	<field name="name">CICATRIZ QUELOIDEA</field>
+	<field name="description">CICATRIZ QUELOIDEA</field>
+	<field name="general_info">Se procede bajo anestesia local a la infiltración de triamcianolona y a la resección del queloide dejando bordes del mismo,
+Cierre con monofilamento no reabsorbible. Retirada de puntos alternos a partir del 10º día.</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ</field>
+	<field name="pathology" ref="health_icd10.L905"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT6">
+	<field name="name">CRIPTORQUIDIA</field>
+	<field name="description">CRIPTORQUIDIA</field>
+	<field name="general_info">Abordaje inguinal (dicho, izquierdo, bilateral). Apertura canal inguinal. Orquidopexia epidartal según técnica de schoemaker.Cierre canal por planos. Piel intradérmica con vicryl rapid 4)0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">Iniciar tolerancia cuando esté bien despierto 
+Si dolor Paracetamol jarabe 20 mgrs/kilo</field>
+	<field name="discharge_instructions">
+SI DOULEUR PARACÉTAMOL 15 MGRS/KILO TOUTES LES 6 HEURES
+REPOS PENDANT 5 JOURS
+GARDER LES PLAIES SÈCHES ET PROPRES
+PANSEMENT QUOTIDIEN AVEC ANTISEPTIQUE
+PAS BESOIN D'ENLEVER LES POINTS DE SUTURE
+RESTE IDENTIQUE AU FORMULAIRE GÉNÉRAL</field>
+	<field name="pathology" ref="health_icd10.Q530"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT7">
+	<field name="name">EXODONCIA</field>
+	<field name="description">PATOLOGÍA DENTARIA</field>
+	<field name="general_info">Tras infiltración anestésica se realiza exodoncia de las piezas dentarias.................................
+Legrado alveolar y Sutura con vicryl</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-       DIETA FRIA
+-       AUGMENTINE 1 GR IV / 8 H
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	CONTROL CONSTANTES VITALES</field>
+	<field name="discharge_instructions">VOTRE TRAITEMENT HABITUEL, COMME
+- AUGMENTINE 875 1/ 8H 5 JOURS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- DIET DOUX
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.K023"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT8">
+	<field name="name">FIBROADENOMA MAMARIO</field>
+	<field name="description">FIBROADENOMA MAMARIO</field>
+	<field name="general_info">Abordaje periareolar. Exeresis de fibroadenoma . Cierre por planos con sutura intradérmica. Se remite a estudio histopatológico</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- MANTENER VENDAJE COMPRESIVO 24 HS 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.N602"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT9">
+	<field name="name">FIMOSIS INFANTIL</field>
+	<field name="description">FIMOSIS</field>
+	<field name="general_info">Circuncisión según técnica habitual.Sutura con vicryl rapid 4/0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">Iniciar tolerancia cuando esté bien despierto
+Si dolor Paracetamol jarabe 20 mgrs/kilo</field>
+	<field name="discharge_instructions">SI DOULEUR SIROP DE PARACÉTAMOL 20 MGRS/KILO/8 HEURES
+LAVEZ LE PÉNIS AVEC DU SÉRUM PHYSIOLOGIQUE OU DE L'EAU ET DU SAVON.
+GARDER LA PLAIE SÈCHE ET PROPRE
+ANTISEPTIQUE TOUTES LES 24 HEURES
+</field>
+	<field name="pathology" ref="health_icd10.N47"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT10">
+	<field name="name">GANGLION</field>
+	<field name="description">GANGLION</field>
+	<field name="general_info"></field>
+	<field name="anesthesia_type">regional_block</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- VOTRE TRAITEMENT HABITUEL, LE MÊME.
+- SI DOULEUR, PARACÉTAMOL 650MG, 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, RENDEZ-VOUS AUX URGENCES DU CENTRE DE SANTÉ.</field>
+	<field name="discharge_instructions"></field>
+	<field name="pathology" ref="health_icd10.G511"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT11">
+	<field name="name">Granuloma</field>
+	<field name="description"></field>
+	<field name="general_info">Se realiza cauterización de granuloma distal 2º dedo mano izq</field>
+	<field name="anesthesia_type">sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification"></field>
+	<field name="postoperative_guidelines">Paracetamol 1g/8h si dolor.
+CHECK UP LE JEUDI 29/09/2022  (9H) AU CENTRE. </field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT12">
+	<field name="name">HEMITIROIDECTOMÍA DERECHA</field>
+	<field name="description">NÓDULO TIROIDEO DERECHO</field>
+	<field name="general_info">Abordaje de plano subcutáneo y muscular. Disección de hemitiroides derecho, previa identificación y preservación de glándulas paratiroides superior derecha e inferior derecha, y de nervio recurrente laríngeo derecho. Hemitiroidectomía subtotal derecha, preservando remanente de lóbulo tiroideo derecho. Disección de hemitiroides izquierdo, previa identificación y preservación de glándulas paratiroides superior izquierda e inferior izquierda, y de nervio recurrente laríngeo izquierda. Hemitiroidectomía izquierda. Revisión de hemostasia. Cierre por planos. Piel con sutura intradérmica.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality">right</field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT13">
+	<field name="name">HEMITIROIDECTOMÍA IZQUIERDA</field>
+	<field name="description">NÓDULO TIROIDEO IZQUIERDO</field>
+	<field name="general_info">Abordaje de plano subcutáneo y muscular. Disección de hemitiroides derecho, previa identificación y preservación de glándulas paratiroides superior derecha e inferior derecha, y de nervio recurrente laríngeo derecho. Hemitiroidectomía subtotal derecha, preservando remanente de lóbulo tiroideo derecho. Disección de hemitiroides izquierdo, previa identificación y preservación de glándulas paratiroides superior izquierda e inferior izquierda, y de nervio recurrente laríngeo izquierda. Hemitiroidectomía izquierda. Revisión de hemostasia. Cierre por planos. Piel con sutura intradérmica.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality">left</field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT14">
+	<field name="name">HEMORROIDES</field>
+	<field name="description">HEMORROIDES</field>
+	<field name="general_info">Se realiza identificación de paquetes hemorroidales a las ... Se realiza hemorroidectomia según técnica de Milligan-Morgan. Revisión de hemolstasia.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">lithotomy</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+-DUPHALAC UN SACHET TOUTES LES 12 HEURES. 
+- NETTOYEZ ET SÉCHEZ LA PLAIE.
+ - SE LAVER QUOTIDIENNEMENT AVEC DE L'EAU ET DU SAVON.
+- REPOS RELATIF PENDANT UNE SEMAINE
+- RETOURNEZ À LA CLINIQUE APRÈS 1 SEMAINE.
+- SI LA PLAIE DEVIENT CHAUDE OU SI DU PUS SORT DE LA PLAIE, RETOURNEZ IMMÉDIATEMENT AU DISPENSAIRE.</field>
+	<field name="pathology" ref="health_icd10.I84"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT15">
+	<field name="name">HERNIA INGUINAL </field>
+	<field name="description">HERNIA INGUINAL ADULTO</field>
+	<field name="general_info">Incisión parainguinal. Apertura de aponeurosis del Oblicuo. Disección y liberación de saco herniario. Hernioplastia con malla de polipropileno. Cierre por planos.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE/CICATRICES DANS LES 10 JOURS AU CENTRE DE SANTÉ
+-NE PAS TRAVAILLER PENDANT 1 MOIS.
+- SI LA PLAIE DEVIENT CHAUDE OU SI DU PUS SORT DE LA PLAIE, RETOURNEZ IMMÉDIATEMENT AU DISPENSAIRE.
+- REVENEZ À LA CLINIQUE APRÈS 1 SEMAINE.</field>
+	<field name="pathology" ref="health_icd10.K40"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT16">
+	<field name="name">HERNIA INGUINAL INFANTIL</field>
+	<field name="description">HERNIA INGUINAL</field>
+	<field name="general_info">Abordaje inguinal(decho, izquierdo,bilateral). Apertura canal inguinal.herniorrafia cerrando saco con vicryl 2/0. Cierre por planos a lo Ferguson. Piel intradérmica vicryl rapid 4/0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">Iniciar tolerancia cuando esté bien despierto
+Paracetamol jarabe 20 mgrs/kilo</field>
+	<field name="discharge_instructions">SI DOULEUR SIROP DE PARACÉTAMOL 15 MGRS/6 HEURES
+PANSEMENT DE LA PLAIE AVEC ANTISEPTIQUE TOUTES LES 24 HEURES
+PAS BESOIN D'ENLEVER LA SUTURE
+</field>
+	<field name="pathology" ref="health_icd10.K40"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT17">
+	<field name="name">HERNIA UMBILICAL INFANTIL</field>
+	<field name="description">HERNIA UMBILICAL</field>
+	<field name="general_info">Incisión infraumbilical. Disección del saco herniario. Cierre del defecto con vicryl 2/0
+Cierre por planos  piel puntos sueltos Vicryl rapid 4/0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">Iniciar tolerancia cuando esté bien despierto
+Si dolor Paracetamol dosis 20 mgrs/kilo</field>
+	<field name="discharge_instructions">SI DOULOUREUX PARACÉTAMOL 15 MGRS/6 HEURES
+GARDEZ LA PLAIE SÈCHE ET PROPRE.
+LEVER LE PANSEMENT DANS 72 HEURES.
+CURE TOUTES LES 24 HEURES AVEC UN ANTISEPTIQUE
+PAS BESOIN D'ENLEVER LA SUTURE
+</field>
+	<field name="pathology" ref="health_icd10.K42"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT18">
+	<field name="name">HIDROCELE INFANTIL</field>
+	<field name="description">HIDROCELE</field>
+	<field name="general_info">Abordaje inguinal (dicho,izqdo, bilateral). apertura canal inguinal. Cierre conducto peritoneo vaginal con vicryl 2/0. Vaciamiento hidrocele residual. Cierre por planos. Piel intradérmica vicryl rapid 4/0</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">Iniciar tolerancia cuando esté bien despierto 
+Si dolor Paracetamol jarabe 20 mgrs/kilo
+</field>
+	<field name="discharge_instructions">SI DOULEUR SIROP DE PARACÉTAMOL 15 MGRS/KILO/6 HEURES
+GARDER LA PLAIE SÈCHE ET PROPRE
+CURE AVEC UN ANTISEPTIQUE TOUTES LES 24 HEURES
+PAS DE RETRAIT DE SUTURE NÉCESSAIRE
+</field>
+	<field name="pathology" ref="health_icd10.N433"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT19">
+	<field name="name">HIDROCLE</field>
+	<field name="description">HIDROCELE ADULTO</field>
+	<field name="general_info"> Incisión escrotal e identificación del saco de hidrocele.
+Se abre el saco y evierte parcialmente la vaginal mediante plicatura de la misma (técnica de Lord).
+Se diseca y evierte la vaginal (técnica de Jaboulay)
+Se diseca y reseca la vaginal (técnica de Andrews).</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">
+- MANTENER VENDAJE COMPRESIVO 
+- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- CONTROL DE DIURESIS 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">
+- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES 
+- REPOS RELATIF PENDANT UNE SEMAINE
+- GARDER LE TESTICULE ÉLEVÉ PAR UNE COQUILLE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.N43"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT20">
+	<field name="name">HISTERECTOMÍA ABDOMINAL</field>
+	<field name="description">UTERO MIOMATOSO, SANGRADO ANEMIZANTE</field>
+	<field name="general_info">Profilaxis antibiótica. Sondaje vesical. Incisión de Pfanenstiel o Laparotomía media infraumbilical. Apertura pared abdominal por planos, PLS de Ligamentos redondos, PLS de Lig. Utero-ováricos, Descenso plica vesical, PLS de vasos uterinos, parametrio. Colpotomía. Extracción pieza quirúrgica. Colporrafia. Cierre de cavidad por planos.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 6 HORAS DE LA CIRUGÍA 
+- METAMIZOL 1 AMPOLLA/8H, 24 horas. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- PARACETAMOL 1GR IV/8H si precisa. 
+- OMEPRAZOL 20MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, LE MÊME.
+- SI DOULEUR, PARACÉTAMOL 650MG, 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- UN REPOS RELATIF PENDANT DEUX SEMAINES
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, RENDEZ-VOUS AUX URGENCES DU CENTRE DE SANTÉ.
+</field>
+	<field name="pathology" ref="health_icd10.D25"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT21">
+	<field name="name">HISTERECTOMÍA VAGINAL Y PLASTIAS</field>
+	<field name="description">PROLAPSO UTERIO, CISTOCELE QUIRÚRGICO</field>
+	<field name="general_info">Profilaxis antibiótica. Sondaje vesical. Infiltración vaginal. Preparación plastia anterior. Disección espacio vesicouterino.  PLS Ligamentos uterosacros, PLS paracolpio, PLS vasos uterinos, PLS Ligamentos utero-ováricos. Colpoperineoplastias. Colporrafia. Colposuspensión McCall.</field>
+	<field name="anesthesia_type">rachianesthesia</field>
+	<field name="approach">other</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">lithotomy</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 6 HORAS DE LA CIRUGÍA 
+- METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- PARACETAMOL 1GR IV/8H si precisa. 
+- OMEPRAZOL 20MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL a las 24 h 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES
+</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACÉTAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- LAVAGES VAGINAUX QUOTIDIENS AU SAVON 
+- REPOS RELATIF PENDANT UNE SEMAINE
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, SE RENDRE AUX URGENCES D'UN CENTRE DE SOINS DE SANTÉ
+</field>
+	<field name="pathology" ref="health_icd10.N813"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT22">
+	<field name="name">INJERTOS CUTÁNEOS</field>
+	<field name="description">INJERTOS CUTÁNEOS</field>
+	<field name="general_info">Se toma injerto libre de piel parcial de.y se aplica en el defecto.
+Sujección con agrafes y apósito anudado. </field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines"></field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDEZ LA PLAIE PROPRE ET SÈCHE, RETIREZ LE PANSEMENT APRÈS 5 JOURS AU CENTRE DE SANTÉ.
+</field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT23">
+	<field name="name">LIPOMA</field>
+	<field name="description">LIPOMA</field>
+	<field name="general_info">Se realiza incisión en huso, con disección y extirpación de tumoración, que es remitida para estudio histopatológico. Cierre por planos. </field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.
+</field>
+	<field name="pathology" ref="health_icd10.D17"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT24">
+	<field name="name">Microtia</field>
+	<field name="description">oreja constricta</field>
+	<field name="general_info"></field>
+	<field name="anesthesia_type"></field>
+	<field name="approach"></field>
+	<field name="laterality"></field>
+	<field name="patient_positioning"></field>
+	<field name="classification"></field>
+	<field name="postoperative_guidelines">no levantar vendaje hasta el viernes 30, dalsy 2%7 cc /8h.</field>
+	<field name="discharge_instructions"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT25">
+	<field name="name">MIOMECTAMÍA MÚLTIPLE</field>
+	<field name="description">UTERO MIOMATOSO</field>
+	<field name="general_info">Incisión de Pfannnstiel, apertura de pared, infiltración de miomas con Bupivacaina y adrenalina al 0.5%. Apertura de cápsula del mioma hasta entrada en plan de clivaje. Disección de mioma mediante técnica de tracción contratracción. Extracción de mioma y sututa del lecho con puntos sueltos de vycril 2/0. Se repite la dinámica con cada uno de los miomas. Sutura de la serosa con sutura continua PDS 2/0. Cierre de cavidad abdoierre de herida en piel con grapas.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 6 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACÉTAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, RENDEZ-VOUS AU SERVICE DES URGENCES.</field>
+	<field name="pathology" ref="health_icd10.D25"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT26">
+	<field name="name">NEOPLASIA MALIGNA DE MAMA</field>
+	<field name="description">CÁNCER DE MAMA</field>
+	<field name="general_info">- MASTECTOMÍA
+Incisión horizontal de Steward. Disección y colgajo cutáneo superior hasta el borde inferior de la clavícula. Disección y colgajo cutáneo inferior hasta sobrepasar el surco submamario y llegar hasta la inserción de los oblicuos y recto anterior del abdomen. Disección de la glándula mamaria sin incluir fascia prepectoral.
+
+- CIRUGÍA CONSERVADORA
+Se realiza incisión _________ disección de colgajo cutáneo  superior e inferior y exéresis en bloque de tumoración hasta nivel de fascia prepectoral. Oncoplastia mamaria, cierre de tejido subcutáneo y piel con intradérmica.
+
+- LINFADENECTOMÍA
+Se realiza la linfadenectomía axilar en bloque identificando en primer lugar el borde externo del pectoral mayor y apertura de la fascia axilar seguidamente se localiza el borde anterior del dorsal ancho y tras ello se identifica y liberala cara anterior e inferior de la vena axilar. Identificación del nervio torácico largo o de Bell y del paquete vasculo-nervioso toraco-dorsal que se respeta.
+Drenaje a nivel axilar
+
+
+- MASTECTOMÍA RADICAL MODIFICADA TIPO MADDEN
+1r tiempo: Incisión horizontal de Steward. Disección y colgajo cutáneo superior hasta el borde inferior de la clavícula. Disección y colgajo cutáneo inferior hasta sobrepasar el surco submamario y llegar hasta la inserción de los oblicuos y recto anterior del abdomen. Disección de la glándula mamaria y fascia del pectoral preservando ambos músculos pectorales.
+2º tiempo: Se realiza la linfadenectomía axilar en bloque identificando en primer lugar el borde externo del pectoral mayor y apertura de la fascia axilar seguidamente se localiza el borde anterior del dorsal ancho y tras ello se identifica y liberala cara anterior e inferior de la vena axilar. Identificación del nervio torácico largo o de Bell y del paquete vasculo-nervioso toraco-dorsal que se respeta.
+Extirpación monobloque: glándula mamaria, aponeurosis pectoral y tejido linfograso axilar.
+Drenaje a nivel axilar y en zona de mastectomía. Cierre de subcutáneo y piel con intradérmica.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H.
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL
+-       MANTENER APÓSITO COMPRESIVO
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions"></field>
+	<field name="pathology" ref="health_icd10.C50"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT27">
+	<field name="name">PALATOPLASTIA ADULTOS</field>
+	<field name="description">FISURA PALATINA ADULTOS</field>
+	<field name="general_info">CIERRE FISURA PALATINA EN TRES PLANOS, MEDIANTE TALLADO DE COLGAJOS PALATINOS Y REPOSICIÓN LA MUSCULATURA MEDIANTE VELOPLASTIA INTRAVELAR TIPO III
+1 TECNICA DE BARDACH 2 VELOPLASTIA INTRAVELAR TIPO III</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">other</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-      DIETA LÍQUIDA/TRITURADA
+-      URBASON 40-60 MG7 24H
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-       AUGMENTINE  1GR IV / 8 H
+-	OMEPRAZOL 40MG 1 VIAL/24H</field>
+	<field name="discharge_instructions">- GARDER LA PLAIE PROPRE ET SÈCHE
+- RÉGIME MOU 7 JOURS
+- PARACÉTAMOL 1 G /8H 5 JOURS
+- AUGMENTINE 875/8H 5 JOURS
+- METAMIZOLE SI NÉCESSAIRE 1 COMPR / 8H
+- EN CAS DE FIÈVRE OU D'AGGRAVATION DE L'ÉTAT CLINIQUE, ALLEZ AUX URGENCES.
+- REVOIR LE PROCHAIN ___ AU ___ AU CENTRE ____</field>
+	<field name="pathology" ref="health_icd10.Q35"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT28">
+	<field name="name">PALATOPLASTIA INFANTIL</field>
+	<field name="description">FISURA PALATINA INFANTIL</field>
+	<field name="general_info">CIERRE FISURA PALATINA EN TRES PLANOS, MEDIANTE TALLADO DE COLGAJOS PALATINOS Y REPOSICIÓN LA MUSCULATURA MEDIANTE VELOPLASTIA INTRAVELAR TIPO III
+1 TECNICA DE BARDACH 2 VELOPLASTIA INTRAVELAR TIPO III</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">other</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">--	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-      DIETA LÍQUIDA/TRITURADA
+-	IBUPROFENO 30 MG7K7DIA
+-       AUGMENTINE  30-50 MG/K/DIA
+-	URBASON</field>
+	<field name="discharge_instructions">- GARDER LA PLAIE PROPRE ET SÈCHE
+- RÉGIME MOU 7 JOURS
+- AUGMENTINE 30-50 MG/K/JOUR 5 JOURS
+- SI NÉCESSAIRE IBUPROFÈNE 30 MG/K/JOUR OU PARACÉTAMOL 15 MG/K/6 HEURES
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CONTRÔLE LE ___ PROCHAIN AU ___ AU CENTRE ____</field>
+	<field name="pathology" ref="health_icd10.Q35"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT29">
+	<field name="name">PAROTIDECTOMÍA</field>
+	<field name="description">Tumoración parotídea</field>
+	<field name="general_info">Incisión de Blair modificada, disección del nervio facial y exéresis de la tumoración. Cierre por planos, dejando drenaje aspirativo.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-      INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.C07"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT30">
+	<field name="name">QUEILOPLASTIA INFANTIL</field>
+	<field name="description">FISURA LABIAL</field>
+	<field name="general_info">Se realiza cierre de fisura  de labio con reposición funcional de la musculatura.
+1. Cierre fisura unilateral segun técnica de Millard   2. Cierre fisura bilateral según técnica de Mulliken </field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- DIETA LÍQUIDA/TRITURADA 
+- AUGMENTINE 30-50 MG/K/DÍA 
+- IBUPROFENO 30 MG/K/DIA 
+- URBASÓN</field>
+	<field name="discharge_instructions">- MAINTENIR L'HERITIÈRE PROPRE ET SÈCHE
+- RÉGIME LÍQUIDA/TRITURADA 7 DÍAS
+- AUGMENTINE 30-50 MG/K/JOUR, 5 JOURS
+- SI PRECISA IBUPROFENO 30 MG/K/DIA O PARACETAMOL 15MG/K/6HORAS	
+ - REVISIÓN EL PRÓXIMO ___ A LAS ___ EN EL CENTRO ____</field>
+	<field name="pathology" ref="health_icd10.Q36"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT31">
+	<field name="name">QUEILOPLSTIA ADULTO</field>
+	<field name="description">FISURA LABIAL </field>
+	<field name="general_info">Se realiza cierre de fisura  de labio con reposición funcional de la musculatura.
+1. Cierre fisura unilateral segun técnica de Millard   2. Cierre fisura bilateral según técnica de Mulliken </field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- DIETA LÍQUIDA/TRITURADA 
+- URBASÓN 40-60 MG/24H 
+- PARACETAMOL 1 GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H.
+- OMEPRAZOL 40MG /24H 
+- AUGMENTINE 1GR IV/8H</field>
+	<field name="discharge_instructions">- MAINTENIR L'HERITIÈRE PROPRE ET SÈCHE
+- DIET BLANDA 7 DÍAS
+- PARACÉTAMOL 650MG 1COMP/8H
+- (PRN) MÉTAMIZOLE 1 COMP /8H. 
+- AUGMENTINE 875/125 TOUTES LES 8H, 5 JOURS 
+- REVISIÓN EL PRÓXIMO ___ A LAS ___ EN EL CENTRO ____</field>
+	<field name="pathology" ref="health_icd10.Q36"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT32">
+	<field name="name">QUISTECTOMÍA ABDOMINAL</field>
+	<field name="description">TUMOR O QUISTE DE OVARIO</field>
+	<field name="general_info">Profilaxis antibiótica. Sondaje vesical. Incisión de Pfannenstiel/ laparotomía media infraumbilical. Apertura pared abdominal por capas. Exéresis quiste o tumor ovárico tras disección cápsula. Puntos de hemostasia. Cierre de cavidad por capas.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">
+- INICIAR TOLERANCIA A LAS 6 HORAS DE LA CIRUGÍA 
+- METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- PARACETAMOL 1GR IV/8H si precisa de rescate. 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN 
+- RETIRAR SONDAJE VESICAL 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACÉTAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- UN REPOS RELATIF PENDANT DEUX SEMAINES
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, RENDEZ-VOUS AUX URGENCES DU CENTRE DE SANTÉ</field>
+	<field name="pathology" ref="health_icd10.Q501"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT33">
+	<field name="name">QUISTECTOMÍA MAXILAR O MANDIBULAR</field>
+	<field name="description">QUISTE MAXILAR / MANDIBULAR</field>
+	<field name="general_info">Infiltración con anestesia con vasoconstrictor, incisión en mucosa oral  de .............a .............Quistectomía y exodoncia de las piezas dentarias afectadas. Hemostasia y sutura con Vicryl.</field>
+	<field name="anesthesia_type">local</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-       DIETA LÍQUIDA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	AUGMENTINE 875 /8H</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- DIET BLANC
+- AUGMENTINE 875/ 8H 5 JOURS
+- EN CAS DE FIÈVRE OU D'AGGRAVATION DE L'ÉTAT CLINIQUE, ALLEZ AUX URGENCES.
+- CONTRÔLE LE ___ SUIVANT AU ___ AU CENTRE ____</field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT34">
+	<field name="name">TIROIDECTOMÍA SUBTOTAL (DUNHILL)</field>
+	<field name="description">NÓDULO TIROIDEO</field>
+	<field name="general_info">Abordaje de plano subcutáneo y muscular. Disección de hemitiroides ---------, previa identificación y preservación de glándulas paratiroides superior ------- e inferior --------, y de nervio recurrente laríngeo ----------. Hemitiroidectomía ------------. Disección de hemitiroides izquierdo, previa identificación y preservación de glándulas paratiroides superior izquierda e inferior izquierda, y de nervio recurrente laríngeo izquierda. Hemitiroidectomía subtotal izquierda, preservando remanente de lóbulo tiroideo izquierdo. Revisión de hemostasia. Cierre por planos. Piel con sutura intradérmica.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- SI FIÈVRE OU AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.C73"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT35">
+	<field name="name">TIROIDECTOMIA TOTAL</field>
+	<field name="description">BOCIO MULTINODULAR</field>
+	<field name="general_info">Abordaje de plano subcutáneo y muscular. Disección de hemitiroides derecho, previa identificación y preservación de glándulas paratiroides superior derecha e inferior derecha, y de nervio recurrente laríngeo derecho. Hemitiroidectomía derecha. Disección de hemitiroides izquierdo, previa identificación y preservación de glándulas paratiroides superior izquierda e inferior izquierda, y de nervio recurrente laríngeo izquierda. Hemitiroidectomía izquierda. Revisión de hemostasia. Cierre por planos. Piel con sutura intradérmica.</field>
+	<field name="anesthesia_type">general</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">-	INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA
+-	PARACETAMOL 1GR IV/8H
+-	(PRN) METAMIZOL 1 AMPOLLA/8H. 
+-	(PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS
+-	OMEPRAZOL 40MG 1 VIAL/24H
+-	INICIAR DEAMBULACIÓN
+-	RETIRAR SONDAJE VESICAL
+-	CONTROL DEL DRENAJE Y CONSTANTES VITALES (si precisa)
+-	EXTRAER CALCIO DE CONTROL MAÑANA POR LA MAÑANA</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- EUTIROX 100, 1 COMPRIMÉ TOUTES LES 24 HEURES, TOUS LES JOURS, UNE DEMI-HEURE AVANT LE PETIT-DÉJEUNER.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DES PLAIES AVEC DES ANTISEPTIQUES ET RETRAIT DES POINTS DE SUTURE DANS LES 10 JOURS AU CENTRE DE SANTÉ
+- REPOS RELATIF PENDANT UNE SEMAINE
+- EN CAS DE FIÈVRE OU D'AGGRAVATION CLINIQUE, ALLEZ AUX URGENCES.
+- CHECK-UP LE ___ PROCHAIN AU ___ AU CENTRE ____.</field>
+	<field name="pathology" ref="health_icd10.E011"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT36">
+	<field name="name">TUMOR CUTÁNEO</field>
+	<field name="description">TUMORACIÓN CUTÁNEA</field>
+	<field name="general_info">Bajo anestesia local más sedación, se procede a exéresis y cierre directo de defecto/ cierre con plastia local/ cierre con injerto cutáneo tomado de</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">r</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- INICIAR DEAMBULACIÓN</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDEZ LA PLAIE PROPRE ET SÈCHE, TAMPONNEZ-LA AVEC DE LA BÉTADINE.
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC UN ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT EN 10 JOURS AU CENTRE DE SANTÉ.</field>
+	<field name="pathology" ref="health_icd10.C792"></field>
+</record>
+<record model="gnuhealth.surgery.protocol" id="SPROT37">
+	<field name="name">Z-PLASTIA</field>
+	<field name="description">Z-PLASTIA</field>
+	<field name="general_info">Bajo anestesia local más sedación/ general, se procede a liberación de brida mediante Z-plastia.
+Hemostasia y cierre con puntos sueltos reabsorbibles. Drenaje tipo penrose, que se retirará en 48h.Curas diarias con toques de betadine/ clorhexidina.</field>
+	<field name="anesthesia_type">local_sedation</field>
+	<field name="approach">open</field>
+	<field name="laterality"></field>
+	<field name="patient_positioning">supine_decubitus</field>
+	<field name="classification">o</field>
+	<field name="postoperative_guidelines">- INICIAR TOLERANCIA A LAS 4 HORAS DE LA CIRUGÍA 
+- PARACETAMOL 1GR IV/8H 
+- (PRN) METAMIZOL 1 AMPOLLA/8H. 
+- (PRN) METOCLOPRAMIDA SI NÁUSEAS O VÓMITOS 
+- OMEPRAZOL 40MG 1 VIAL/24H 
+- CONTROL DEL DRENAJE Y CONSTANTES VITALES</field>
+	<field name="discharge_instructions">- VOTRE TRAITEMENT HABITUEL, COMME CI-DESSUS
+- SI DOULEUR, PARACTEAMOL 650MG 1 COMPRIMÉ/8H. SI LA DOULEUR AUGMENTE, ALTERNER AVEC NOLOTIL 575MG 1 COMPRIMÉ/8H.
+- GARDER LA PLAIE PROPRE ET SÈCHE
+- PANSEMENTS QUOTIDIENS DE LA PLAIE AVEC ANTISEPTIQUE ET RETRAIT DES POINTS DE SUTURE/RÉTRÉCISSEMENT DANS LES 10 JOURS AU CENTRE DE SANTÉ</field>
+	<field name="pathology" ref="health_icd10.L905"></field>
+</record>
+</data>
+</tryton>

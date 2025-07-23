@@ -37,6 +37,10 @@ sed -i -E "s|^(path *=).*|\1 $(realpath attach)|; s|^(root *=).*|\1 $(realpath g
 
 message "INFO" "Starting GNU Health Server version ${GNUHEALTH_VERSION} ..."
 cd ${GNUHEALTH_DIR}/tryton/server/${TRYTOND}/bin
+
+# Activating virtual environment
+. env/bin/activate
+
 python3 ./trytond $@ || bailout
 
 

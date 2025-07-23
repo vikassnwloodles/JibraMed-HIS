@@ -84,7 +84,7 @@ if ! pyenv versions --bare | grep -qx "$PYTHON_VERSION"; then
   pyenv install "$PYTHON_VERSION"
 fi
 
-pyenv local "$PYTHON_VERSION"
+# pyenv local "$PYTHON_VERSION"
 python -m venv env
 . env/bin/activate
 pip install --upgrade pip setuptools
@@ -147,10 +147,10 @@ sed -i "2s|.*|uri = postgresql://$DB_USER:$DB_PASS@localhost:5432/|" "$TRYTON_CO
 
 
 # === Initialize GNU Health database ===
-TRYTOND_BIN_DIR="gnuhealth/tryton/server/$(ls -1d ${HOME}/gnuhealth/tryton/server/trytond-* | grep -o 'trytond-[0-9.]\+' | sort -V | tail -1)/bin"
+source .gnuhealthrc
+TRYTOND_BIN_DIR="gnuhealth/tryton/server/$(ls -1d gnuhealth/tryton/server/trytond-* | grep -o 'trytond-[0-9.]\+' | sort -V | tail -1)/bin"
 cd "$TRYTOND_BIN_DIR"
 echo -e "\n\n🛠️ Initializing GNU Health Database..."
-source gnuhealthrc
 python3 ./trytond-admin --all --database="$DB_NAME" --password
 echo "✅ Database initialization complete."
 
@@ -175,8 +175,8 @@ After=network.target postgresql.service
 [Service]
 Type=simple
 User=$USERNAME
-WorkingDirectory=$(pwd)
-ExecStart=$(pwd)/start_gnuhealth.sh
+WorkingDirectory=$SCRIPT_DIR
+ExecStart=$SCRIPT_DIR/start_gnuhealth.sh
 Environment="PYENV_ROOT=$USER_HOME/.pyenv"
 Environment="PATH=$USER_HOME/.pyenv/bin:$USER_HOME/.pyenv/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
